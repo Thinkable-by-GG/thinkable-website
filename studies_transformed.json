@@ -1,0 +1,1654 @@
+[
+  {
+    "title": "Cognitive training via a mobile application to reduce some forms of body dissatisfaction in young females at high-risk for body image disorders: A randomized controlled trial",
+    "slug": "cognitive-training-via-a-mobile-application-to-reduce-some-forms-of-body-dissatisfaction-in-young-females-at-high-risk-for-body-image-disorders-a-randomized-controlled-trial",
+    "category": "multi-domain",
+    "publication": "Body Image",
+    "publicationYear": 2022,
+    "authors": [
+      {
+        "name": "Silvia Cerea"
+      },
+      {
+        "name": "Guy Doron"
+      },
+      {
+        "name": "Teresa Manoli"
+      },
+      {
+        "name": "Federica Patania"
+      },
+      {
+        "name": "Gioia Bottesi"
+      },
+      {
+        "name": "Marta Ghisi"
+      }
+    ],
+    "doi": "https://doi.org/10.1016/j.bodyim.2022.07.010",
+    "affiliations": "University of Padova (Italy), Reichman University (Israel)",
+    "keyMetrics": {
+      "participantCount": 0,
+      "effectSize": "",
+      "significanceLevel": "",
+      "interventionDuration": "16 days"
+    },
+    "sampleSize": 95,
+    "targetPopulation": "Young females at high-risk for Body Image Disorders (BIDs)",
+    "duration": "16 days intervention with assessments at baseline (T0), 16 days (T1), and 32 days (T2)",
+    "summary": "This RCT investigated the efficacy of the GGBI mobile app (from GGtude platform) in reducing body dissatisfaction, BDD/ED symptoms, and associated features in high-risk young females. Participants were randomized into immediate-use app (iApp, n=47) and delayed-use app (dApp, n=48) groups using a crossover design.",
+    "keyFindings": [
+      {
+        "finding": "Significant Group × Time interaction showing decrease in BDD symptoms and body dissatisfaction related to EDs in the immediate-use app group"
+      },
+      {
+        "finding": "34.74% of participants achieved reliable change on extreme body dissatisfaction/BDD symptoms"
+      },
+      {
+        "finding": "Effects were maintained at 2-week follow-up"
+      },
+      {
+        "finding": "Results were replicated in delayed-use group after crossover"
+      },
+      {
+        "finding": "More limited effects on ED symptoms (bulimia, drive for thinness) and associated features (perfectionism, social anxiety, self-esteem)"
+      }
+    ],
+    "results": "",
+    "statisticalSignificance": "Bonferroni corrected p-value = .006 applied to all measures",
+    "keywords": [],
+    "isFeatured": true,
+    "isPublished": true,
+    "displayOrder": 1,
+    "highlights": {
+      "oneLineSummary": "Significant Group × Time interaction showing decrease in BDD symptoms and body dissatisfaction related to EDs in the immediate-use app group",
+      "mainOutcome": "Significant Group × Time interaction showing decrease in BDD symptoms and body dissatisfaction related to EDs in the immediate-use app group"
+    }
+  },
+  {
+    "title": "Cognitive Training via a Mobile Application to Reduce Obsessive-Compulsive-Related Distress and Cognitions During the COVID-19 Outbreaks: A Randomized Controlled Trial Using a Subclinical Cohort",
+    "slug": "cognitive-training-via-a-mobile-application-to-reduce-obsessive-compulsive-related-distress-and-cognitions-during-the-covid-19-outbreaks-a-randomized-controlled-trial-using-a-subclinical-cohort",
+    "category": "multi-domain",
+    "publication": "Behavior Therapy",
+    "publicationYear": 2022,
+    "authors": [
+      {
+        "name": "Burcin Akin-Sari"
+      },
+      {
+        "name": "Mujgan Inozu"
+      },
+      {
+        "name": "A. Bikem Haciomeroglu"
+      },
+      {
+        "name": "Banu Cicek Cekci"
+      },
+      {
+        "name": "Elif Uzumcu"
+      },
+      {
+        "name": "Guy Doron"
+      }
+    ],
+    "doi": "https://doi.org/10.1016/j.beth.2021.12.008",
+    "affiliations": "Baskent University, Hacettepe University, Ankara Haci Bayram Veli University (Turkey), Interdisciplinary Center of Herzliya (Israel)",
+    "keyMetrics": {
+      "participantCount": 0,
+      "effectSize": "",
+      "significanceLevel": "",
+      "interventionDuration": "12 days"
+    },
+    "sampleSize": 55,
+    "targetPopulation": "Community participants with subclinical OCD symptoms (scoring 2 SD above mean on OCI-R during COVID-19 pandemic)",
+    "duration": "12 days intervention per group, assessments at T0, T1 (12 days), and T2 (24 days)",
+    "summary": "This RCT evaluated the effectiveness of GG OCD mobile app (GGtude platform) in reducing OCD symptoms and cognitions during the COVID-19 pandemic in a Turkish subclinical sample. The study used a crossover design with immediate-app use (iApp) and delayed-app use (dApp) groups, with participants completing 3 levels per day (approximately 3-4 minutes) for 12 consecutive days.",
+    "keyFindings": [
+      {
+        "finding": "Large effect-size reductions (Cohen's d ranging from .87 to 2.73) in OCD symptoms and maladaptive cognitions"
+      },
+      {
+        "finding": "Significant Group × Time interactions for OCI-R, OBQ-44, and IUS-12"
+      },
+      {
+        "finding": "iApp group showed significant reductions from T0 to T1 which were maintained at T2 follow-up"
+      },
+      {
+        "finding": "dApp group replicated results after crossover (T1 to T2)"
+      },
+      {
+        "finding": "No significant effects on DASS-21 subscales (depression, anxiety, stress)"
+      },
+      {
+        "finding": "Marginally significant effects on contamination cognitions (p = .08)"
+      },
+      {
+        "finding": "Overall dropout rate of 18% during app use"
+      }
+    ],
+    "results": "",
+    "statisticalSignificance": "Multiple imputation used for missing data (MICE method). Bonferroni correction applied for multiple comparisons.",
+    "keywords": [],
+    "isFeatured": false,
+    "isPublished": true,
+    "displayOrder": 2,
+    "highlights": {
+      "oneLineSummary": "Large effect-size reductions (Cohen's d ranging from .87 to 2.73) in OCD symptoms and maladaptive cognitions",
+      "mainOutcome": "Large effect-size reductions (Cohen's d ranging from .87 to 2.73) in OCD symptoms and maladaptive cognitions"
+    }
+  },
+  {
+    "title": "Brief cognitive-behavioral training for tinnitus relief using a mobile application: A pilot open trial",
+    "slug": "brief-cognitive-behavioral-training-for-tinnitus-relief-using-a-mobile-application-a-pilot-open-trial",
+    "category": "multi-domain",
+    "publication": "Health Informatics Journal",
+    "publicationYear": 2022,
+    "authors": [
+      {
+        "name": "Yahav Oron"
+      },
+      {
+        "name": "Boaz M Ben David"
+      },
+      {
+        "name": "Guy Doron"
+      }
+    ],
+    "doi": "https://doi.org/10.1177/14604582221083483",
+    "affiliations": "Tel-Aviv Sourasky Medical Center, Tel Aviv University (Israel), Reichman University (Israel), University of Toronto (Canada)",
+    "keyMetrics": {
+      "participantCount": 0,
+      "effectSize": "d=2.12.",
+      "significanceLevel": "p=0",
+      "interventionDuration": "14 days"
+    },
+    "sampleSize": 26,
+    "targetPopulation": "Patients diagnosed with constant (subjective and non-pulsatile) tinnitus lasting more than 3 months",
+    "duration": "14 days recommended, completed in average 15.42 days (SD=11.4). Daily training 3-4 minutes",
+    "summary": "This pilot open trial assessed the effectiveness of GGTI (GG Tinnitus) mobile app from the GGtude platform in reducing tinnitus-related distress and handicap. The app targets maladaptive beliefs specifically associated with tinnitus (e.g., catastrophic misinterpretations of tinnitus symptoms). 14 out of 26 participants completed all 48 levels of the app. Assessments were conducted using the Hebrew Tinnitus Handicap Inventory (H-THI) and Visual Analogue Scale (VAS) for mood at three time points.",
+    "keyFindings": [
+      {
+        "finding": "Significant large-effect size reduction on H-THI scores (F=14.5, p=0.002, d=2.12)"
+      },
+      {
+        "finding": "50% of completers (7 out of 14) showed reliable change based on RCI scores"
+      },
+      {
+        "finding": "85% of completers (12 out of 14) showed amelioration in THI scores"
+      },
+      {
+        "finding": "No significant change in mood (VAS scores) across assessment occasions"
+      },
+      {
+        "finding": "Age did not hamper positive effects - even participants over 65 years showed improvements"
+      },
+      {
+        "finding": "Dropout rate of 46% (12 out of 26)"
+      },
+      {
+        "finding": "All completers reported vertigo, versus 75% of dropouts (p=.05)"
+      }
+    ],
+    "results": "",
+    "statisticalSignificance": "Significant linear trend for H-THI: F(1,13)=14.5, p=0.002, d=2.12. No significant correlations between improvement and duration of tinnitus, baseline mood, or days to completion.",
+    "keywords": [],
+    "isFeatured": false,
+    "isPublished": true,
+    "displayOrder": 3,
+    "highlights": {
+      "oneLineSummary": "Significant large-effect size reduction on H-THI scores (F=14.5, p=0.002, d=2.12)",
+      "mainOutcome": "Significant large-effect size reduction on H-THI scores (F=14.5, p=0.002, d=2.12)"
+    }
+  },
+  {
+    "title": "Cognitive training using a mobile app as a coping tool against COVID-19 distress: A crossover randomized controlled trial",
+    "slug": "cognitive-training-using-a-mobile-app-as-a-coping-tool-against-covid-19-distress-a-crossover-randomized-controlled-trial",
+    "category": "multi-domain",
+    "publication": "Journal of Affective Disorders",
+    "publicationYear": 2022,
+    "authors": [
+      {
+        "name": "Burcin Akin-Sari"
+      },
+      {
+        "name": "Mujgan Inozu"
+      },
+      {
+        "name": "A. Bikem Haciomeroglu"
+      },
+      {
+        "name": "Ezgi Trak"
+      },
+      {
+        "name": "Damla Tufan"
+      },
+      {
+        "name": "Guy Doron"
+      }
+    ],
+    "doi": "https://doi.org/10.1016/j.jad.2021.12.090",
+    "affiliations": "Baskent University, Hacettepe University (Turkey), Reichman University (Israel)",
+    "keyMetrics": {
+      "participantCount": 0,
+      "effectSize": "",
+      "significanceLevel": "",
+      "interventionDuration": "12 days"
+    },
+    "sampleSize": 47,
+    "targetPopulation": "Community participants with elevated COVID-19 distress (scoring 2 SD above mean on CDS during pandemic)",
+    "duration": "12 days intervention per group, assessments at T0, T1 (12 days), and T2 (24 days)",
+    "summary": "This RCT evaluated the GGcov module of the GGtude platform in reducing COVID-19-related distress during the pandemic. Using a crossover design, participants were randomized into immediate-app use (iApp) and delayed-app use (dApp) groups. Participants completed 3 levels per day (approximately 3-4 minutes) for 12 consecutive days, targeting maladaptive cognitions associated with COVID-19 distress.",
+    "keyFindings": [
+      {
+        "finding": "Large effect-size reductions in COVID-19 distress (Cohen's d ranging from 1.74 to 2.35)"
+      },
+      {
+        "finding": "Significant Group × Time interaction for CDS total score and all subscales"
+      },
+      {
+        "finding": "iApp group showed significant reductions from T0 to T1, maintained at T2 follow-up"
+      },
+      {
+        "finding": "dApp group replicated results after crossover (T1 to T2)"
+      },
+      {
+        "finding": "Significant improvements in depression (PHQ-9) with large effect sizes"
+      },
+      {
+        "finding": "Marginally significant effects on intolerance of uncertainty (IUS-12, p = .06)"
+      },
+      {
+        "finding": "No significant effects on DASS-21 anxiety and stress subscales"
+      },
+      {
+        "finding": "Overall dropout rate of 17%"
+      }
+    ],
+    "results": "",
+    "statisticalSignificance": "Multiple imputation used for missing data (MICE method). Bonferroni correction applied. Significance level set at p < .006 for primary outcomes.",
+    "keywords": [],
+    "isFeatured": false,
+    "isPublished": true,
+    "displayOrder": 4,
+    "highlights": {
+      "oneLineSummary": "Large effect-size reductions in COVID-19 distress (Cohen's d ranging from 1.74 to 2.35)",
+      "mainOutcome": "Large effect-size reductions in COVID-19 distress (Cohen's d ranging from 1.74 to 2.35)"
+    }
+  },
+  {
+    "title": "A Smartphone Intervention for People With Serious Mental Illness: Fully Remote Randomized Controlled Trial of CORE",
+    "slug": "a-smartphone-intervention-for-people-with-serious-mental-illness-fully-remote-randomized-controlled-trial-of-core",
+    "category": "multi-domain",
+    "publication": "Journal of Medical Internet Research",
+    "publicationYear": 2021,
+    "authors": [
+      {
+        "name": "Dror Ben-Zeev"
+      },
+      {
+        "name": "Ayesha Chander"
+      },
+      {
+        "name": "Justin Tauscher"
+      },
+      {
+        "name": "Benjamin Buck"
+      },
+      {
+        "name": "Subigya Nepal"
+      },
+      {
+        "name": "Andrew Campbell"
+      },
+      {
+        "name": "Guy Doron"
+      }
+    ],
+    "doi": "https://doi.org/10.2196/29201",
+    "affiliations": "University of Washington (USA), Dartmouth College (USA), Interdisciplinary Center Herzliya (Israel)",
+    "keyMetrics": {
+      "participantCount": 0,
+      "effectSize": "",
+      "significanceLevel": "",
+      "interventionDuration": "30 days"
+    },
+    "sampleSize": 315,
+    "targetPopulation": "People with serious mental illness: schizophrenia or schizoaffective disorder (21.6%), bipolar disorder (35.2%), major depressive disorder (43.2%), with moderate to severe symptoms and disability",
+    "duration": "30 days intervention per group, assessments at baseline (T1), 30 days (T2), and 60 days (T3)",
+    "summary": "This was the first fully remote RCT of an mHealth intervention for people with serious mental illness. The CORE app uses the GGtude platform with daily brief game-like exercises designed to promote reassessment of dysfunctional beliefs in multiple domains relevant to SMI. Participants were recruited entirely via web (Google and Facebook ads), randomized to active intervention or waitlist control groups. The intervention comprised 53 levels covering domains: self-talk, belief in change, self-stigma, self-care, self-worth, illness and identity, personal strength, social avoidance, feelings vs facts, catastrophization, thoughts of reference, paranoid ideation, treatment seeking, and recovery. Participants completed up to 3 levels per day (3-4 minutes) for 30 days.",
+    "keyFindings": [
+      {
+        "finding": "Successfully demonstrated feasibility of fully remote clinical trials in SMI population - recruited from 45 states including 80% of most rural states"
+      },
+      {
+        "finding": "Significant treatment×time interactions: BDI-II (F=13.38, p<.001), GAD-7 (F=5.87, p=.01), RAS (F=23.42, p<.001), RSES (F=19.28, p<.001), SDS (F=10.73, p=.001)"
+      },
+      {
+        "finding": "Large effect sizes: BDI-II (d=0.58), RAS (d=0.61), RSES (d=0.64)"
+      },
+      {
+        "finding": "Moderate effect: SDS (d=0.44), Small effect: GAD-7 (d=0.20)"
+      },
+      {
+        "finding": "Results replicated in waitlist control group following crossover (T2 to T3)"
+      },
+      {
+        "finding": "Improvements maintained at follow-up with additional small effects on GPTS, RAS, and SDS"
+      },
+      {
+        "finding": "No significant effects on auditory hallucinations (HPSVQ)"
+      },
+      {
+        "finding": "CORE rated as highly usable and acceptable - 95% found it easy to use, 84.9% satisfied, 75.6% would recommend to friend"
+      },
+      {
+        "finding": "50.6% of participants with app data completed all 53 intervention levels (average 35 levels)"
+      },
+      {
+        "finding": "High dropout rates: Active group 41.5% retained at T2, 33.1% at T3; Waitlist group 60.2% retained at T2, 40.3% at T3"
+      },
+      {
+        "finding": "Recruitment cost-effective: $2,984.26 total budget, recruited 315 participants via Google (71.7%) and Facebook ads"
+      }
+    ],
+    "results": "",
+    "statisticalSignificance": "Intent-to-treat analyses with multiple imputation for missing data using MICE method. Repeated-measures ANOVA used. Bonferroni post hoc comparisons for within-group changes. Sensitivity analyses using pattern-mixture models confirmed missing at random assumption.",
+    "keywords": [],
+    "isFeatured": false,
+    "isPublished": true,
+    "displayOrder": 5,
+    "highlights": {
+      "oneLineSummary": "Successfully demonstrated feasibility of fully remote clinical trials in SMI population - recruited from 45 states including 80% of most rural states",
+      "mainOutcome": "Successfully demonstrated feasibility of fully remote clinical trials in SMI population - recruited from 45 states including 80% of most rural states"
+    }
+  },
+  {
+    "title": "Can self-esteem be improved using short daily training on mobile applications? Examining real world data of GG Self-esteem users",
+    "slug": "can-self-esteem-be-improved-using-short-daily-training-on-mobile-applications-examining-real-world-data-of-gg-self-esteem-users",
+    "category": "self-esteem",
+    "publication": "Clinical Psychologist",
+    "publicationYear": 2021,
+    "authors": [
+      {
+        "name": "Martha Giraldo-O'Meara"
+      },
+      {
+        "name": "Guy Doron"
+      }
+    ],
+    "doi": "https://doi.org/10.1080/13284207.2021.1923126",
+    "affiliations": "Concordia University (Canada), Baruch Ivcher School of Psychology Interdisciplinary Center (Israel)",
+    "keyMetrics": {
+      "participantCount": 0,
+      "effectSize": "",
+      "significanceLevel": "",
+      "interventionDuration": "90 days"
+    },
+    "sampleSize": 5320,
+    "targetPopulation": "General population users of GG Self-esteem mobile application seeking to improve self-esteem",
+    "duration": "Three assessment points: Level 1 (baseline), Level 20 (n=1,034, 19.4% retention), Level 46 (n=165, 15.9% of Level 20). Mean 9.90 days from baseline to Level 20 for non-completers, 5.15 days for completers. Mean 14.99 days from Level 20 to Level 46",
+    "summary": "This study examined real-world data from users of the GG Self-esteem mobile application between January 2019 and August 2019. The app consists of 46 levels (first 15 free, remaining require payment) targeting self-esteem relevant maladaptive beliefs such as self-criticism, negative thinking, and self-efficacy. Users complete brief daily training sessions where they are presented with statement 'blocks' that they either embrace (pull downward) or reject (throw upward). The intervention targets beliefs about self-talk, belief in change, self-stigma, self-care, self-worth, illness and identity, personal strength, social avoidance, feelings versus facts, catastrophization, thoughts of reference, paranoid ideation, treatment seeking, and recovery. Self-esteem was assessed using the Rosenberg Self-Esteem Scale at three time points, and mood was assessed using a Visual Analogue Scale with five face icons.",
+    "keyFindings": [
+      {
+        "finding": "Significant dosage-response effect: Higher levels of app completion associated with greater self-esteem improvements"
+      },
+      {
+        "finding": "Self-esteem ratings significantly increased across all three assessment points (Levels 1, 20, and 46)"
+      },
+      {
+        "finding": "Large effect size for self-esteem improvement from baseline to Level 46 (Cohen's d = 1.38)"
+      },
+      {
+        "finding": "Moderate effect size for self-esteem from baseline to Level 20 (Cohen's d = 1.26)"
+      },
+      {
+        "finding": "Mood ratings significantly improved from baseline to Level 20 (Cohen's d = .50) but not from Level 20 to Level 46"
+      },
+      {
+        "finding": "Gender differences: Men showed significantly higher self-esteem scores than women at baseline and Level 20, but not at Level 46"
+      },
+      {
+        "finding": "Age effects: Older users (M=32.64, SD=10.45) more likely to complete training than younger users (M=25.77, SD=10.09)"
+      },
+      {
+        "finding": "High dropout rates typical of eHealth interventions: 80.6% dropped before Level 20, 84.1% of Level 20 completers dropped before Level 46"
+      },
+      {
+        "finding": "Completers took fewer days to complete training than non-completers (5.15 vs 9.90 days from baseline to Level 20)"
+      },
+      {
+        "finding": "Real-world data findings consistent with previous controlled trials of GGApps platform"
+      }
+    ],
+    "results": "",
+    "statisticalSignificance": "Repeated-measures ANOVAs conducted with Bonferroni correction for post hoc comparisons. Age included as covariate in gender analyses. Multiple imputation not used as this was real-world observational data. Mauchly's test confirmed sphericity assumption was not violated.",
+    "keywords": [],
+    "isFeatured": false,
+    "isPublished": true,
+    "displayOrder": 6,
+    "highlights": {
+      "oneLineSummary": "Significant dosage-response effect: Higher levels of app completion associated with greater self-esteem improvements",
+      "mainOutcome": "Significant dosage-response effect: Higher levels of app completion associated with greater self-esteem improvements"
+    }
+  },
+  {
+    "title": "Cognitive Behavioral Training Using a Mobile Application Reduces Body Image-Related Symptoms in High-Risk Female University Students: A Randomized Controlled Study",
+    "slug": "cognitive-behavioral-training-using-a-mobile-application-reduces-body-image-related-symptoms-in-high-risk-female-university-students-a-randomized-controlled-study",
+    "category": "perfectionism",
+    "publication": "Behavior Therapy",
+    "publicationYear": 2021,
+    "authors": [
+      {
+        "name": "Silvia Cerea"
+      },
+      {
+        "name": "Marta Ghisi"
+      },
+      {
+        "name": "Gioia Bottesi"
+      },
+      {
+        "name": "Teresa Manoli"
+      },
+      {
+        "name": "Eleonora Carraro"
+      },
+      {
+        "name": "Guy Doron"
+      }
+    ],
+    "doi": "https://doi.org/10.1016/j.beth.2020.04.002",
+    "affiliations": "University of Padova (Italy), Baruch Ivcher School of Psychology Interdisciplinary Center Herzliya (Israel)",
+    "keyMetrics": {
+      "participantCount": 0,
+      "effectSize": "ηp²=.01",
+      "significanceLevel": "",
+      "interventionDuration": "16 days"
+    },
+    "sampleSize": 50,
+    "targetPopulation": "Female university students at high-risk of developing body image disorders (BIDs), defined as QDC score >130 (extreme body dissatisfaction/BDD symptoms) or EDRC score >47 (ED risk)",
+    "duration": "16 days intervention per group with assessments at baseline (T0), 16 days (T1), and 32 days (T2). Participants completed 3 levels per day (approximately 3 minutes daily) for 16 consecutive days",
+    "summary": "This RCT assessed the efficacy of GGBI (GG Body Image: Positive Body Image), a mobile application based on cognitive behavioral principles, in reducing body dissatisfaction and BDD/ED symptoms in high-risk female university students. GGBI consists of 48 levels (3 levels per belief) targeting maladaptive beliefs such as perfectionism, fear of being judged, importance of physical appearance, body as an object, self-criticism, and negative thinking. Users are presented with statement 'blocks' that they either embrace (pull downward) or reject (push upward). The app includes psychoeducation before each new belief, feedback based on completion time, and memory-boost games. Participants were randomized to immediate-use (iApp) or delayed-use (dApp) groups using a crossover design. Recruitment involved screening 240 students, identifying 53 at high-risk, excluding 3 with full-blown BIDs or current treatment, resulting in 50 participants.",
+    "keyFindings": [
+      {
+        "finding": "Significant Group × Time interaction on BDD symptoms (QDC): iApp group showed greater decrease than dApp group from T0 to T1 (F=5.81, p=.02, ηp²=.12, medium effect size)"
+      },
+      {
+        "finding": "Post-intervention means for BDD symptoms fell below cut-off (<130) for extreme body dissatisfaction/BDD symptoms in both groups"
+      },
+      {
+        "finding": "No significant Group × Time interaction for ED symptoms (DT, B, EDRC), though main Time effect approached significance for BD subscale (p=.05)"
+      },
+      {
+        "finding": "100% adherence rate: All 50 participants completed entire 16-day training and all assessments at T0, T1, and T2"
+      },
+      {
+        "finding": "iApp group showed significant reductions from T0 to T2 on QDC (p=.03, ηp²=.13) and BD subscale (p=.01, ηp²=.16)"
+      },
+      {
+        "finding": "Trends toward significance for DT (p=.05) and EDRC (p=.05) in iApp group"
+      },
+      {
+        "finding": "dApp group replicated results after crossover with large effect reductions on QDC (p<.001, ηp²=.42) and BD (p=.04, ηp²=.16)"
+      },
+      {
+        "finding": "Effects on ED symptoms were more limited than effects on body dissatisfaction"
+      },
+      {
+        "finding": "Training targeted 16 maladaptive beliefs including self-talk, belief in change, self-stigma, self-care, self-worth, illness and identity, personal strength, social avoidance, feelings vs facts, catastrophization, thoughts of reference, paranoid ideation, treatment seeking, and recovery"
+      },
+      {
+        "finding": "No participants dropped out, demonstrating excellent feasibility and acceptability"
+      }
+    ],
+    "results": "",
+    "statisticalSignificance": "Repeated-measures ANOVAs used for analysis. Between-group comparisons: 2 (Group) × 2 (Time) ANOVAs. Within-group: 1 × 3 (Time) ANOVAs for iApp group, 1 × 2 (Time) for dApp crossover. Effect sizes: ηp²=.01 (small), ηp²=.06 (medium), ηp²=.14 (large). No missing data as all participants completed training and assessments. Bonferroni corrections applied for post-hoc comparisons.",
+    "keywords": [],
+    "isFeatured": false,
+    "isPublished": true,
+    "displayOrder": 7,
+    "highlights": {
+      "oneLineSummary": "Significant Group × Time interaction on BDD symptoms (QDC): iApp group showed greater decrease than dApp group from T0 to T1 (F=5.81, p=.02, ηp²=.1...",
+      "mainOutcome": "Significant Group × Time interaction on BDD symptoms (QDC): iApp group showed greater decrease than dApp group from T0 to T1 (F=5.81, p=.02, ηp²=.12, medium effect size)"
+    }
+  },
+  {
+    "title": "Building resilience to body image triggers using brief cognitive training on a mobile application: A randomized controlled trial",
+    "slug": "building-resilience-to-body-image-triggers-using-brief-cognitive-training-on-a-mobile-application-a-randomized-controlled-trial",
+    "category": "perfectionism",
+    "publication": "Behaviour Research and Therapy",
+    "publicationYear": 2020,
+    "authors": [
+      {
+        "name": "Dinur Aboody"
+      },
+      {
+        "name": "Jedidiah Siev"
+      },
+      {
+        "name": "Guy Doron"
+      }
+    ],
+    "doi": "https://doi.org/10.1016/j.brat.2020.103723",
+    "affiliations": "Baruch Ivcher School of Psychology Interdisciplinary Center Herzliya (Israel), Department of Psychology Swarthmore College (USA)",
+    "keyMetrics": {
+      "participantCount": 0,
+      "effectSize": "d=0.2",
+      "significanceLevel": "",
+      "interventionDuration": "14 days"
+    },
+    "sampleSize": 90,
+    "targetPopulation": "Non-clinical sample of women with body image concerns who used Instagram or Facebook",
+    "duration": "14 days (2 weeks) of training, approximately 4 minutes per day. Assessments at baseline, post-test (15-21 days after baseline), and 1-month follow-up",
+    "summary": "This RCT evaluated the GGBI (GG Body Image) mobile app in reducing body image disturbance (BID) symptoms and increasing resilience to body image triggers. Women were randomized to use GGBI for 14 consecutive days (4 min/day) or to a waitlist control condition. The study uniquely assessed resilience by having participants browse Instagram accounts featuring thin-ideal imagery and measuring their state body image responses. The app targets maladaptive beliefs (perfectionism, importance of appearance, viewing body as aesthetic object, uncertainty about looks, media literacy) and promotes positive body image and body appreciation. This is the first study to demonstrate that cognitive training can buffer against harmful effects of naturalistic, life-like Instagram exposure.",
+    "keyFindings": [
+      {
+        "finding": "Significant Group × Time multivariate interaction for all primary body image measures (Pillai's trace=.29, F(6,83)=5.54, p<.001, d=1.27)"
+      },
+      {
+        "finding": "GGBI users showed medium-to-large effect size improvements on all trait body image measures"
+      },
+      {
+        "finding": "All effects maintained at 1-month follow-up"
+      },
+      {
+        "finding": "98.9% retention rate: Only 1 participant (out of 90) did not complete follow-up assessment"
+      },
+      {
+        "finding": "GGBI participants showed increased resilience to Instagram thin-ideal exposure: greater appearance satisfaction and less body anxiety after browsing Instagram"
+      },
+      {
+        "finding": "Resilience effects maintained at 1-month follow-up"
+      },
+      {
+        "finding": "Only 2 out of 48 GGBI participants did not reach highest app level (54); both completed at least 40 levels"
+      },
+      {
+        "finding": "Improvements in self-esteem maintained at follow-up"
+      },
+      {
+        "finding": "Depression did not improve significantly (sample had low baseline depression)"
+      },
+      {
+        "finding": "No group differences in negative mood after Instagram exposure"
+      }
+    ],
+    "results": "",
+    "statisticalSignificance": "Mixed two-way MANOVAs with Time (baseline/post/follow-up) as within-subject factor and Group (GGBI/control) as between-subject factor. One-way ANOVAs for state measures. Bonferroni adjustments applied. Effect sizes: small d=0.2, medium d=0.5, large d=0.8. Power analysis showed 80% power to detect large effects (f>0.35) with n=92. Last-observation-carried-forward for 1 missing follow-up participant.",
+    "keywords": [],
+    "isFeatured": false,
+    "isPublished": true,
+    "displayOrder": 8,
+    "highlights": {
+      "oneLineSummary": "Significant Group × Time multivariate interaction for all primary body image measures (Pillai's trace=.29, F(6,83)=5.54, p<.001, d=1.27)",
+      "mainOutcome": "Significant Group × Time multivariate interaction for all primary body image measures (Pillai's trace=.29, F(6,83)=5.54, p<.001, d=1.27)"
+    }
+  },
+  {
+    "title": "Reaching reliable change using short, daily, cognitive training exercises delivered on a mobile application: The case of Relationship Obsessive Compulsive Disorder (ROCD) symptoms and cognitions in a subclinical cohort",
+    "slug": "reaching-reliable-change-using-short-daily-cognitive-training-exercises-delivered-on-a-mobile-application-the-case-of-relationship-obsessive-compulsive-disorder-rocd-symptoms-and-cognitions-in-a-subclinical-cohort",
+    "category": "rocd",
+    "publication": "Journal of Affective Disorders",
+    "publicationYear": 2020,
+    "authors": [
+      {
+        "name": "Silvia Cerea"
+      },
+      {
+        "name": "Marta Ghisi"
+      },
+      {
+        "name": "Gioia Bottesi"
+      },
+      {
+        "name": "Eleonora Carraro"
+      },
+      {
+        "name": "Denise Broggio"
+      },
+      {
+        "name": "Guy Doron"
+      }
+    ],
+    "doi": "https://doi.org/10.1016/j.jad.2020.07.043",
+    "affiliations": "Department of General Psychology University of Padova (Italy), Baruch Ivcher School of Psychology Interdisciplinary Center Herzliya (Israel)",
+    "keyMetrics": {
+      "participantCount": 0,
+      "effectSize": "ηp²=.01",
+      "significanceLevel": "",
+      "interventionDuration": "15 days"
+    },
+    "sampleSize": 50,
+    "targetPopulation": "University students with subclinical ROCD symptoms (scoring above clinical threshold on ROCI >21.5 or PROCSI >17, but not meeting full diagnosis of ROCD on SCID-5-CV). Participants had experienced at least one romantic relationship",
+    "duration": "15 days intervention per group, 3 levels per day (approximately 3 minutes daily). Assessments at baseline (T0), 15 days (T1), and 30 days (T2)",
+    "summary": "This RCT assessed the efficacy of GG Relationship Doubts (GGRO) mobile app from the GGtude platform in reducing ROCD symptoms, OCD beliefs, and associated features in university students with subclinical ROCD concerns. GGRO consists of 45 levels (3 levels per belief) targeting maladaptive beliefs associated with ROCD including intolerance of uncertainty, perfectionism, inflated responsibility, importance of thoughts, and control of thoughts. Participants were randomized to immediate-use (iApp) or delayed-use (dApp) groups using a crossover design. The study uniquely evaluated reliable change using the Reliable Change Index (RCI), demonstrating that 40-52% of participants achieved reliable change on ROCD symptoms. This is the first study to assess GGRO effects in a subclinical ROCD sample using structured diagnostic interview screening.",
+    "keyFindings": [
+      {
+        "finding": "Significant Group × Time multivariate interaction (F[1,48]=2.82, p=.01, ηp²=.50) with large effect sizes"
+      },
+      {
+        "finding": "40% of participants achieved reliable change on relationship-centered ROCD symptoms (ROCI)"
+      },
+      {
+        "finding": "52% achieved reliable change on partner-focused ROCD symptoms (PROCSI)"
+      },
+      {
+        "finding": "Medium-large effect size reductions in all OCD-related beliefs (OBQ-46 subscales)"
+      },
+      {
+        "finding": "32% achieved reliable change on general OCD symptoms (OCI-R)"
+      },
+      {
+        "finding": "Significant increases in self-esteem (12% reliable change) maintained at follow-up"
+      },
+      {
+        "finding": "Significant reductions in social anxiety symptoms (18% reliable change)"
+      },
+      {
+        "finding": "Excellent retention: 100% completed post-test, 98.9% completed follow-up (only 1 dropout)"
+      },
+      {
+        "finding": "All effects maintained at 2-week follow-up in iApp group"
+      },
+      {
+        "finding": "Results replicated in dApp group after crossover"
+      },
+      {
+        "finding": "Only 2 out of 48 GGBI participants did not reach highest app level (45); both completed at least 40 levels"
+      },
+      {
+        "finding": "No significant effects on intolerance of uncertainty in dApp group (though 10% showed reliable change)"
+      }
+    ],
+    "results": "",
+    "statisticalSignificance": "Repeated-measures MANOVAs and ANOVAs with Bonferroni corrections. Reliable Change Index (RCI) calculated using Jacobson and Truax (1991) method. Block randomization with fixed block size of two. All participants completed required questionnaires at T0, T1, and T2, and entire GGRO training - no missing data. Effect sizes: ηp²=.01 (small), ηp²=.06 (medium), ηp²=.14 (large). Power analysis showed 80% power to detect large effects (f>0.35) with n=92.",
+    "keywords": [],
+    "isFeatured": false,
+    "isPublished": true,
+    "displayOrder": 9,
+    "highlights": {
+      "oneLineSummary": "Significant Group × Time multivariate interaction (F[1,48]=2.82, p=.01, ηp²=.50) with large effect sizes",
+      "mainOutcome": "Significant Group × Time multivariate interaction (F[1,48]=2.82, p=.01, ηp²=.50) with large effect sizes"
+    }
+  },
+  {
+    "title": "A novel approach to challenging OCD related beliefs using a mobile-app: An exploratory study",
+    "slug": "a-novel-approach-to-challenging-ocd-related-beliefs-using-a-mobile-app-an-exploratory-study",
+    "category": "perfectionism",
+    "publication": "Journal of Behavior Therapy and Experimental Psychiatry",
+    "publicationYear": 2018,
+    "authors": [
+      {
+        "name": "María Roncero"
+      },
+      {
+        "name": "Amparo Belloch"
+      },
+      {
+        "name": "Guy Doron"
+      }
+    ],
+    "doi": "https://doi.org/10.1016/j.jbtep.2018.01.008",
+    "affiliations": "Department of Personality, Faculty of Psychology, Research and Treatment Unit for Obsessive-Compulsive and Related Disorders (I'TOC) University of Valencia (Spain), Baruch Ivcher School of Psychology Interdisciplinary Center (IDC) Herzliya (Israel)",
+    "keyMetrics": {
+      "participantCount": 0,
+      "effectSize": "",
+      "significanceLevel": "",
+      "interventionDuration": "15 days"
+    },
+    "sampleSize": 20,
+    "targetPopulation": "Non-clinical university students. No specific OCD diagnosis required - general student population",
+    "duration": "15 days of training, 3 minutes per day (3 levels daily). Pre- and post-treatment assessments only, no follow-up",
+    "summary": "This exploratory open trial was the first study to evaluate the GGRO (GG Relationship Obsession) mobile app from the GGtude platform. The app uses a novel approach where users physically interact with statements by pulling adaptive statements downward (toward themselves) and throwing maladaptive statements upward (away from themselves). GGRO consists of 45 levels targeting OCD-related maladaptive beliefs including inflated responsibility, importance of thoughts, control of thoughts, overestimation of threat, need for certainty, and perfectionism. Each new belief set includes psychoeducational rationale. The app includes memory quizzes after each level, push notifications for daily reminders, and discourages use in response to distressing thoughts. This proof-of-concept study assessed pre-post changes in OCD beliefs, OCD symptoms (including relationship-obsessions), and mood in non-clinical students.",
+    "keyFindings": [
+      {
+        "finding": "Significant multivariate effect across all measures (Pillai's trace=.964, F(5,15)=5.27, p=.005, d=0.72)"
+      },
+      {
+        "finding": "Large effect size reductions on all OCD symptom measures and OCD-related beliefs"
+      },
+      {
+        "finding": "No significant reduction in depression symptoms"
+      },
+      {
+        "finding": "Pre-post changes in OCD beliefs significantly predicted reduction in OCD symptoms (β=-.53, p<.05)"
+      },
+      {
+        "finding": "Change in beliefs accounted for 17% additional variance in OCD symptoms beyond baseline symptoms"
+      },
+      {
+        "finding": "No significant differences between completers (n=20) and non-completers (n=16) on demographics or most baseline measures"
+      },
+      {
+        "finding": "44% dropout rate (16 of 36 participants did not complete)"
+      },
+      {
+        "finding": "Small to null effect sizes for differences between completers and non-completers (except PROCSI d=.42)"
+      },
+      {
+        "finding": "All completers reported using the app for more than 12 days as required"
+      },
+      {
+        "finding": "Results support dimensional view of OCD beliefs and symptoms"
+      }
+    ],
+    "results": "",
+    "statisticalSignificance": "Repeated-measures MANOVA conducted. Hierarchical regression used to test predictive relationships. Internal consistency adequate to high across all measures at pre (α=.81 to .95) and post (α=.72 to .93). Chi-square and t-tests used for completer vs non-completer comparisons. Effect sizes calculated using Cohen's d.",
+    "keywords": [],
+    "isFeatured": true,
+    "isPublished": true,
+    "displayOrder": 10,
+    "highlights": {
+      "oneLineSummary": "Significant multivariate effect across all measures (Pillai's trace=.964, F(5,15)=5.27, p=.005, d=0.72)",
+      "mainOutcome": "Significant multivariate effect across all measures (Pillai's trace=.964, F(5,15)=5.27, p=.005, d=0.72)"
+    }
+  },
+  {
+    "title": "Assisting relapse prevention in OCD using a novel mobile app-based intervention: A case report",
+    "slug": "assisting-relapse-prevention-in-ocd-using-a-novel-mobile-app-based-intervention-a-case-report",
+    "category": "multi-domain",
+    "publication": "Bulletin of the Menninger Clinic",
+    "publicationYear": 2018,
+    "authors": [
+      {
+        "name": "Belén Pascual-Vera"
+      },
+      {
+        "name": "María Roncero"
+      },
+      {
+        "name": "Guy Doron"
+      },
+      {
+        "name": "Amparo Belloch"
+      }
+    ],
+    "doi": "Not specified in publication",
+    "affiliations": "Department of Personality, Faculty of Psychology, Research and Treatment Unit for Obsessive-Compulsive and Related Disorders (I'TOC) University of Valencia (Spain), Baruch Ivcher School of Psychology Interdisciplinary Center (IDC) Herzliya (Israel)",
+    "keyMetrics": {
+      "participantCount": 0,
+      "effectSize": "",
+      "significanceLevel": "",
+      "interventionDuration": "2 weeks"
+    },
+    "sampleSize": 1,
+    "targetPopulation": "Individual with severe, treatment-resistant OCD who achieved recovery following CBT and needed relapse prevention support",
+    "duration": "2 weeks (14 days) of GGOC app use following 8 months of CBT (32 weekly sessions). Patient completed 47 levels of the app. GGOC used as substitute for usual 2 face-to-face relapse prevention sessions. 2-year follow-up conducted.",
+    "summary": "This single-case study evaluated the efficacy of the GGOC mobile app as a relapse prevention tool for a patient with severe OCD who had successfully completed CBT treatment. The patient (Joan) initially presented with Y-BOCS=33 (severe), contamination obsessions, and washing/cleaning compulsions occupying 3-5 hours daily. After 32 sessions of CBT combined with pharmacotherapy, she achieved recovery (Y-BOCS=7). GGOC was then used for 2 weeks as a relapse prevention intervention. The app consists of 47 levels targeting OCD-relevant maladaptive beliefs through game-like interactions where users pull adaptive statements toward themselves and push maladaptive statements away. The study assessed changes in OCD symptoms, beliefs, and depression before and after GGOC use.",
+    "keyFindings": [
+      {
+        "finding": "Y-BOCS decreased from 7 (post-CBT/pre-GGOC) to 2 (post-GGOC), indicating sustained recovery"
+      },
+      {
+        "finding": "All OBQ-20 subscales (OCD beliefs) showed reductions from pre- to post-GGOC"
+      },
+      {
+        "finding": "OCI-R symptoms decreased for cleaning/washing and neutralizing subscales, as well as total score"
+      },
+      {
+        "finding": "DASS depression scores remained stable and low (8/21 at both time points) - patient had already recovered from depression after CBT"
+      },
+      {
+        "finding": "Patient remained free of OCD and depressive symptoms at 2-year follow-up"
+      },
+      {
+        "finding": "Patient reported app was accessible, easy to use, and served as useful reminder of therapy learnings"
+      },
+      {
+        "finding": "GGOC successfully maintained and increased therapeutic gains from CBT"
+      },
+      {
+        "finding": "App provided cost-effective relapse prevention alternative to face-to-face sessions for patient with travel barriers"
+      }
+    ],
+    "results": "",
+    "statisticalSignificance": "As a single-case study, no statistical tests were conducted. Clinical significance was evaluated using Y-BOCS criteria (Jacobson & Truax, 1991: Y-BOCS ≤7 plus ≥6 point decrease). Patient met recovery criteria after CBT and maintained/enhanced gains after GGOC. Long-term maintenance confirmed at 2-year follow-up. Pre-post comparisons on self-report measures (OBQ-20, OCI-R, DASS) showed consistent improvements in OCD-related domains.",
+    "keywords": [],
+    "isFeatured": false,
+    "isPublished": true,
+    "displayOrder": 11,
+    "highlights": {
+      "oneLineSummary": "Y-BOCS decreased from 7 (post-CBT/pre-GGOC) to 2 (post-GGOC), indicating sustained recovery",
+      "mainOutcome": "Y-BOCS decreased from 7 (post-CBT/pre-GGOC) to 2 (post-GGOC), indicating sustained recovery"
+    }
+  },
+  {
+    "title": "Can Brief, Daily Training Using a Mobile App Help Change Maladaptive Beliefs? Crossover Randomized Controlled Trial",
+    "slug": "can-brief-daily-training-using-a-mobile-app-help-change-maladaptive-beliefs-crossover-randomized-controlled-trial",
+    "category": "multi-domain",
+    "publication": "JMIR Mhealth and Uhealth",
+    "publicationYear": 2019,
+    "authors": [
+      {
+        "name": "María Roncero"
+      },
+      {
+        "name": "Amparo Belloch"
+      },
+      {
+        "name": "Guy Doron"
+      }
+    ],
+    "doi": "https://doi.org/10.2196/11443",
+    "affiliations": "Research and Treatment Unit for Obsessive-Compulsive and Related Disorders, Department of Personality, Faculty of Psychology, University of Valencia (Spain), Baruch Ivcher School of Psychology, Interdisciplinary Center Herzliya (Israel)",
+    "keyMetrics": {
+      "participantCount": 0,
+      "effectSize": "",
+      "significanceLevel": "",
+      "interventionDuration": "15 days"
+    },
+    "sampleSize": 97,
+    "targetPopulation": "Non-clinical university students from University of Valencia. No specific OCD diagnosis required - general student population with OCD-related beliefs and symptoms",
+    "duration": "15 days of app use (3 levels per day, ~3 minutes daily). Assessment at T1 (baseline), T2 (15 days), T3 (30 days). iApp group used app from T1-T2, then 15-day follow-up. dApp group waited T1-T2 (waitlist), then used app T2-T3 (crossover). 81.4% completed T2, 65.1% completed T3.",
+    "summary": "This crossover randomized controlled trial evaluated the efficacy of GGRO (GG Relationship Obsession) mobile app in reducing OCD-related maladaptive beliefs and symptoms in non-clinical students. 97 participants were randomized to immediate-use app group (iApp, n=51) or delayed-use app group (dApp, n=46). The iApp group used GGRO for 15 consecutive days starting at baseline, then stopped for 15-day follow-up. The dApp group served as waitlist control for first 15 days, then crossed over to use the app for 15 days. GGRO consists of 45 levels (3 levels per belief) targeting OCD-related maladaptive beliefs through game-like interactions. Users pull adaptive statements toward themselves and push maladaptive statements away. The app includes psychoeducational rationales, memory quizzes, push notifications, and encourages daily preset-time training (not in response to distressing thoughts). This study built upon a previous exploratory open trial and aimed to confirm efficacy with stronger methodology.",
+    "keyFindings": [
+      {
+        "finding": "All participants used app for mean 14.07 days (SD 1.41) with 2.94 levels per day"
+      },
+      {
+        "finding": "Mean highest level completed: 40.93 of 45 levels (91% completion)"
+      },
+      {
+        "finding": "Significant treatment × time interactions favoring iApp group: OBQ-20 (beliefs), PROCSI-Si (partner-focused ROCD), and SISE (self-esteem)"
+      },
+      {
+        "finding": "iApp group showed medium-large effect size reductions maintained at 15-day follow-up"
+      },
+      {
+        "finding": "dApp group replicated results after crossover with significant reductions in all OCD measures"
+      },
+      {
+        "finding": "Largest effect sizes for OCD beliefs: iApp d=1.42, dApp d=1.07"
+      },
+      {
+        "finding": "Partner-focused ROCD symptoms showed continued improvement at follow-up (additional gains between T2-T3)"
+      },
+      {
+        "finding": "No significant changes in depression symptoms (DASS) - expected as app targets OCD-specific beliefs"
+      },
+      {
+        "finding": "Unexpected: dApp group showed some OCD symptom reduction during waitlist period (possibly due to mid-semester timing with fewer evaluations)"
+      },
+      {
+        "finding": "Intention-to-treat analysis with last-observation-carried-forward method used"
+      }
+    ],
+    "results": "",
+    "statisticalSignificance": "Crossover RCT design with intention-to-treat analysis using last-observation-carried-forward method. Repeated measures ANOVA with Bonferroni adjustments performed. Between-group analyses (T1 vs T2) revealed significant treatment × repeated measures interactions for OBQ-20, PROCSI-Si, and SISE. Within-group analyses showed significant pre-post reductions in iApp group maintained at T3 follow-up. dApp group replicated results after crossover (T2→T3). Effect sizes calculated using Cohen's d. Sample size: 97 randomized, 79 completed T2 (81.4%), 62 completed T3 (65.1%). No significant differences in dropouts vs completers on demographics. Trial registered: ClinicalTrials.gov NCT03571464.",
+    "keywords": [],
+    "isFeatured": false,
+    "isPublished": true,
+    "displayOrder": 12,
+    "highlights": {
+      "oneLineSummary": "All participants used app for mean 14.07 days (SD 1.41) with 2.94 levels per day",
+      "mainOutcome": "All participants used app for mean 14.07 days (SD 1.41) with 2.94 levels per day"
+    }
+  },
+  {
+    "title": "Can self-esteem be improved using short daily training on mobile applications? Examining real world data of GG Self-esteem users",
+    "slug": "can-self-esteem-be-improved-using-short-daily-training-on-mobile-applications-examining-real-world-data-of-gg-self-esteem-users",
+    "category": "perfectionism",
+    "publication": "Clinical Psychologist",
+    "publicationYear": 2021,
+    "authors": [
+      {
+        "name": "Martha Giraldo-O'Meara"
+      },
+      {
+        "name": "Guy Doron"
+      }
+    ],
+    "doi": "https://doi.org/10.1080/13284207.2021.1923126",
+    "affiliations": "Department of Psychology, Concordia University, Montreal (Canada), Baruch Ivcher School of Psychology Interdisciplinary Center (IDC) Herzliya (Israel)",
+    "keyMetrics": {
+      "participantCount": 0,
+      "effectSize": "",
+      "significanceLevel": "",
+      "interventionDuration": "90 days"
+    },
+    "sampleSize": 5320,
+    "targetPopulation": "Real-world users of GG Self-esteem app seeking to improve self-esteem. Organic downloads (not recruited for research). Anonymous data collection (no username/password required). General population with self-esteem concerns.",
+    "duration": "Data collected January 2019 - August 2019. Assessment at 3 time points: Level 1 (baseline, n=5,320), Level 20 (n=1,034, 19.4%), Level 46 (n=165, 15.9% of Level 20 completers). Mean days of use: 9.90 days (SD=13.66) for non-completers to Level 20, 5.15 days (SD=4.79) for completers to Level 20, 14.99 days (SD=15.26) from Level 20 to Level 46. Total approximately 20 days average to complete all 46 levels.",
+    "summary": "This real-world data study examined whether brief, daily use of the GGSE (GG Self-esteem) mobile app was associated with improvements in self-esteem and mood ratings in a naturalistic setting. GGSE is a CBT-based app consisting of 46 levels (3 levels per belief) targeting maladaptive beliefs associated with low self-esteem such as self-criticism, negative thinking, perfectionism, self-efficacy, dealing with emotions, social fears, and abandonment fears. Users pull adaptive statements toward themselves and throw maladaptive statements away. The app includes tutorials, psychoeducational rationales, memory quizzes, and assessment levels. First 15 levels are free; additional levels require payment. Data from 5,320 users were retrospectively analyzed to assess dosage-response effects across three assessment points (Levels 1, 20, and 46). The Rosenberg Self-Esteem Scale (RSES) was embedded as 'assessment-quiz' levels, and mood was assessed using a 5-point Visual Analogue Scale with face icons. This study tested whether findings from previous controlled trials would replicate in real-world conditions without research incentives or monitoring.",
+    "keyFindings": [
+      {
+        "finding": "Very large real-world sample: 5,320 initial users organically downloaded the app"
+      },
+      {
+        "finding": "Significant dosage-response effect: Higher app levels associated with greater self-esteem improvements"
+      },
+      {
+        "finding": "Large effect size for self-esteem across all levels: Cohen's d = 1.26 (baseline to Level 20), d = 1.38 (baseline to Level 46)"
+      },
+      {
+        "finding": "Self-esteem continued to improve from Level 20 to Level 46, demonstrating sustained benefit with continued use"
+      },
+      {
+        "finding": "Mood improved from baseline to Level 20 (d=0.50, medium effect) but plateaued (no further improvement from Level 20 to 46)"
+      },
+      {
+        "finding": "High dropout rates: 80.6% before Level 20, 84.1% before Level 46 - typical for mHealth interventions"
+      },
+      {
+        "finding": "Older users more likely to complete training (age effect on completion)"
+      },
+      {
+        "finding": "Gender differences: Men showed higher self-esteem than women at baseline and Level 20 (consistent with literature)"
+      },
+      {
+        "finding": "Payment barrier at Level 15 likely contributed to dropout rates"
+      },
+      {
+        "finding": "Real-world results consistent with previous RCTs, demonstrating ecological validity"
+      },
+      {
+        "finding": "Users completed training over average of 20 days without research incentives"
+      }
+    ],
+    "results": "",
+    "statisticalSignificance": "Repeated-measures ANOVAs conducted with Bonferroni corrections for post-hoc comparisons. Factorial repeated-measures ANOVAs with gender as between-subjects factor and age as covariate. F-test robust for Type I error control despite violation of normality assumption. Mauchly's test indicated sphericity assumption was satisfied. All main effects and interactions reported. Excellent internal consistency for RSES (α=.93). Large sample sizes provide adequate power. No attrition analyses showed younger age associated with dropout but no gender differences. Results replicate previous RCTs in real-world setting, demonstrating ecological validity.",
+    "keywords": [],
+    "isFeatured": false,
+    "isPublished": true,
+    "displayOrder": 13,
+    "highlights": {
+      "oneLineSummary": "Very large real-world sample: 5,320 initial users organically downloaded the app",
+      "mainOutcome": "Very large real-world sample: 5,320 initial users organically downloaded the app"
+    }
+  },
+  {
+    "title": "Building resilience to body image triggers using brief cognitive training on a mobile application: A randomized controlled trial",
+    "slug": "building-resilience-to-body-image-triggers-using-brief-cognitive-training-on-a-mobile-application-a-randomized-controlled-trial",
+    "category": "perfectionism",
+    "publication": "Behaviour Research and Therapy",
+    "publicationYear": 2020,
+    "authors": [
+      {
+        "name": "Dinur Aboody"
+      },
+      {
+        "name": "Jedidiah Siev"
+      },
+      {
+        "name": "Guy Doron"
+      }
+    ],
+    "doi": "https://doi.org/10.1016/j.brat.2020.103723",
+    "affiliations": "Baruch Ivcher School of Psychology, Interdisciplinary Center Herzliya (Israel), Department of Psychology, Swarthmore College (USA)",
+    "keyMetrics": {
+      "participantCount": 0,
+      "effectSize": "",
+      "significanceLevel": "p=.60",
+      "interventionDuration": "2 weeks"
+    },
+    "sampleSize": 90,
+    "targetPopulation": "Women with body image concerns. Sample recruited from college students via social media and online recruitment system. Eligibility criteria: female-identified, active Instagram/Facebook account, Hebrew speaker, mobile device capable of installing GGBI.",
+    "duration": "2 weeks of daily training (approximately 4 minutes/day, 4 levels per day up to level 54) with assessments at baseline, post-test (15-21 days after baseline), and 1-month follow-up. 98.9% retention rate (89/90 completed follow-up). High adherence: 46 of 48 GGBI participants (95.8%) reached highest level (54).",
+    "summary": "This RCT evaluated the effects of GGBI (GG Body Image) mobile app on body image disturbance (BID), body appreciation, and resilience to body image triggers. The app consists of short training exercises (4 min/day for 14 days) intended to help women increase accessibility to functional self-statements that facilitate adaptive interpretations of thoughts, emotions, and events associated with body image. The intervention targeted maladaptive beliefs including over-importance of appearance, viewing body as aesthetic object, perfectionism, uncertainty about looks, and media literacy. Users learned to embrace (pull toward themselves) self-statements challenging maladaptive beliefs and promoting positive body image/body appreciation, while rejecting (throwing away) statements consistent with BID-related maladaptive beliefs. Participants completed an Instagram exposure resilience task at post-test and follow-up - browsing a pre-made Instagram account following attractive peers, celebrities, and 'thinspiration' accounts portraying thin-ideal body images for 10 minutes on iPad. To maximize compliance: 2 additional course credits for reaching level 54, lottery entry for two-person massage if no missed days, communications about progress on days 4 and 10.",
+    "keyFindings": [
+      {
+        "finding": "Relative to control group, GGBI participants demonstrated significant improvements on all three primary body image measures (BIDQ, BAS-2, PASTAS-T) with medium-to-large effect sizes"
+      },
+      {
+        "finding": "Medium-to-large effect sizes across all measures (Cohen's d ranging from 0.61 to 0.89 for Group X Time interactions)"
+      },
+      {
+        "finding": "All improvements maintained at 1-month follow-up assessment"
+      },
+      {
+        "finding": "GGBI participants showed increased resilience to Instagram triggers: after viewing thin-ideal Instagram images, they reported significantly greater appearance satisfaction (d=0.56 post-test, d=0.63 follow-up) and less state anxiety about body parts (d=0.44 post-test, d=0.45 follow-up) compared to control group"
+      },
+      {
+        "finding": "Self-esteem improved significantly (d=0.55) and gains maintained at follow-up"
+      },
+      {
+        "finding": "Depression symptoms did not show significant improvement (not specifically targeted by intervention)"
+      },
+      {
+        "finding": "High adherence and low attrition demonstrate feasibility and acceptability of brief mobile intervention"
+      },
+      {
+        "finding": "Only 1 participant (1.1%) dropped out at follow-up, indicating excellent retention"
+      },
+      {
+        "finding": "Groups did not differ in negative mood following Instagram exposure"
+      },
+      {
+        "finding": "No differences between groups in perceived similarity of study Instagram account to personal social media accounts"
+      }
+    ],
+    "results": "",
+    "statisticalSignificance": "Power analysis based on previous study (Roncero et al., 2019) indicated 92 participants needed for 80% power at α=.05 with two groups and three measurements to detect large effects (f>0.35) with 10% expected attrition. MANOVAs with Bonferroni adjustments conducted for trait measures. Mixed two-way MANOVAs with Time (baseline/post-test/follow-up) as within-subject factor and Group (GGBI/control) as between-subject factor. One-way ANOVAs for state measures. All primary body image measures showed significant Group X Time interactions with medium-to-large effect sizes. State resilience measures (appearance satisfaction, PASTAS-S) showed significant between-group differences at both post-test and follow-up with small-to-medium effect sizes. Excellent internal consistency for all measures: BIDQ (α=.91-.92), BAS-2 (α=.94-.95), PASTAS-T (α=.87-.88), PASTAS-S (α=.87-.88), DASS-D (α=.87-.88), Appearance Satisfaction VAS (α=.91-.92), Negative Mood VAS (α=.79-.82). Groups did not differ at baseline on any demographic or outcome variables. No differences in daily Instagram (t(78)=0.53, p=.60) or Facebook use (t(84)=0.15, p=.88). No differences in similarity ratings of study Instagram account to personal accounts (post-test: t=0.027, p=.87; follow-up: t=0.720, p=.40). Trial registered at https://osf.io/gfzke. Last-observation-carried-forward imputation for 1 participant who missed follow-up.",
+    "keywords": [],
+    "isFeatured": false,
+    "isPublished": true,
+    "displayOrder": 14,
+    "highlights": {
+      "oneLineSummary": "Relative to control group, GGBI participants demonstrated significant improvements on all three primary body image measures (BIDQ, BAS-2, PASTAS-T)...",
+      "mainOutcome": "Relative to control group, GGBI participants demonstrated significant improvements on all three primary body image measures (BIDQ, BAS-2, PASTAS-T) with medium-to-large effect sizes"
+    }
+  },
+  {
+    "title": "Cognitive Training via a Mobile Application to Reduce Obsessive-Compulsive-Related Distress and Cognitions During the COVID-19 Outbreaks: A Randomized Controlled Trial Using a Subclinical Cohort",
+    "slug": "cognitive-training-via-a-mobile-application-to-reduce-obsessive-compulsive-related-distress-and-cognitions-during-the-covid-19-outbreaks-a-randomized-controlled-trial-using-a-subclinical-cohort",
+    "category": "multi-domain",
+    "publication": "Behavior Therapy",
+    "publicationYear": 2022,
+    "authors": [
+      {
+        "name": "Burcin Akin-Sari"
+      },
+      {
+        "name": "Mujgan Inozu"
+      },
+      {
+        "name": "A. Bikem Haciomeroglu"
+      },
+      {
+        "name": "Banu Cicek Cekci"
+      },
+      {
+        "name": "Elif Uzumcu"
+      },
+      {
+        "name": "Guy Doron"
+      }
+    ],
+    "doi": "https://doi.org/10.1016/j.beth.2021.12.008",
+    "affiliations": "Baskent University (Turkey), Hacettepe University (Turkey), Ankara Haci Bayram Veli University (Turkey), Interdisciplinary Center Herzliya (Israel)",
+    "keyMetrics": {
+      "participantCount": 0,
+      "effectSize": "ηp²=.18",
+      "significanceLevel": "p<.01",
+      "interventionDuration": "12 days"
+    },
+    "sampleSize": 55,
+    "targetPopulation": "Subclinical OCD community sample at high risk for developing OCD. Individuals with OCD symptoms scoring 2 SD above population mean but not currently diagnosed or receiving treatment. Recruited through university mailing lists and social media during COVID-19 pandemic. Eligibility: Turkish as first language, literate, age 18-65, OCI-R score >2 SD above mean, smartphone ownership (iOS or Android), internet access, no reported psychiatric diagnosis or ongoing treatment.",
+    "duration": "12 consecutive days of app use (3 levels/day, approximately 4 minutes/day) totaling 35 levels. Crossover design: iApp group used app T0-T1 (12 days), then follow-up at T2 (24 days total from baseline). dApp group: waitlist T0-T1, used app T1-T2 (12 days), assessed at T0, T1, T2. Study conducted October-December 2020 during peak pandemic in Turkey with lockdowns, quarantines, travel restrictions. Pilot study with 20 participants conducted prior to main trial for Turkish translation validation.",
+    "summary": "This crossover RCT evaluated the efficacy of GG OCD mobile app in reducing OCD symptoms and maladaptive cognitions during the COVID-19 pandemic in a Turkish subclinical sample. The app consists of 35 levels with 3 levels targeting each maladaptive belief (intolerance of uncertainty, fear of harm, 'not just right' feelings). Users complete short daily exercises (3 levels/day, ~4 min) learning to reject OCD-related statements by swiping them upward and embrace functional statements by pulling them downward. Each level includes several statements either consistent (dysfunctional) or inconsistent (adaptive) with maladaptive beliefs. Push notifications reminded daily use. Daily screenshots verified compliance. Study design: iApp group (n=25) started using GG OCD at baseline (T0) for 12 days (until T1), then follow-up at T2. dApp group (n=20) waited T0-T1, then used app T1-T2 (crossover). This was first study to assess GG OCD during pandemic and first to evaluate Turkish translation. Pilot study (n=20) validated translation before main trial. Multiple imputation with chained equations (MICE) used for missing data from dropouts. Supported by Scientific and Technological Research Council of Turkey (Project 120K364). Context: pandemic exacerbated OCD symptoms, particularly contamination fears; government campaigns emphasized infection risk, hygiene, social distancing; traditional face-to-face therapy access severely limited by lockdowns.",
+    "keyFindings": [
+      {
+        "finding": "Large effect-size reductions (Cohen's d ranging from .87 to 2.73) in OCD symptoms and maladaptive cognitions in both groups following app use"
+      },
+      {
+        "finding": "iApp group showed significantly greater improvements than dApp group at T1 on OCI-R (d=0.94), OBQ-44 (d=1.03), and IUS-12 (d=0.67)"
+      },
+      {
+        "finding": "dApp group replicated iApp results after crossover: significant reductions from T1 to T2 in OCD symptoms (d=1.74), obsessive beliefs (d=2.04), and intolerance of uncertainty (d=1.12)"
+      },
+      {
+        "finding": "All improvements maintained at follow-up for iApp group (T0 to T2): OCI-R (d=2.73), OBQ-44 (d=1.77), IUS-12 (d=2.04)"
+      },
+      {
+        "finding": "Contamination cognitions showed medium effect-size reductions (d=0.87-0.91) with near-significant Time × Group interaction (p=.08)"
+      },
+      {
+        "finding": "No significant changes in DASS-21 depression, anxiety, or stress subscales (intervention did not target depressogenic beliefs)"
+      },
+      {
+        "finding": "18% dropout rate comparable to or better than other mHealth mental health interventions (meta-analysis mean: 26-33%)"
+      },
+      {
+        "finding": "High internal consistency for all measures (α=.78-.93) across all time points"
+      },
+      {
+        "finding": "Between-group analyses showed significant Time × Group interactions for OCI-R (F=11.37, p<.01, ηp²=.18), OBQ-44 (F=14.39, p<.001, ηp²=.21), IUS-12 (F=6.03, p<.05, ηp²=.10)"
+      },
+      {
+        "finding": "Within-group analyses revealed very large effects: iApp OCI-R reduction (Wilks' λ=.36, F=23.61, p<.001, ηp²=.65)"
+      },
+      {
+        "finding": "Crossover design successfully demonstrated replicability of effects in dApp group"
+      },
+      {
+        "finding": "Turkish translation validated successfully with no comprehension issues reported"
+      },
+      {
+        "finding": "Brief cognitive intervention without behavioral components (no ERP) still produced large effects"
+      },
+      {
+        "finding": "First demonstration of GG OCD efficacy during pandemic conditions with heightened uncertainty and OCD triggers"
+      }
+    ],
+    "results": "",
+    "statisticalSignificance": "Power analysis indicated n=92 needed for 80% power at α=.05 to detect large effects (f>0.35) with 10% expected attrition. Simple randomization using Randomizer.org assigned participants 1:1 to iApp or dApp groups. Intention-to-treat analysis with missing data imputed using Multivariate Imputation with Chained Equations (MICE). Series of 2×2 mixed ANOVAs with Time (T0, T1) as within-subject factor and Group (iApp, dApp) as between-subject factor. MANOVA for DASS-21 subscales to reduce Type I error. Bonferroni post-hoc corrections applied. Mauchly's Test of Sphericity conducted; Greenhouse-Geisser corrections used when sphericity violated (most measures). Significant Time × Group interactions found for OCI-R (F=11.37, p<.01, ηp²=.18), OBQ-44 (F=14.39, p<.001, ηp²=.21), IUS-12 (F=6.03, p<.05, ηp²=.10). Significant main effects of Time for all primary OCD measures. Within-group repeated measures ANOVAs (1×3: T0, T1, T2) separately for each group showed significant improvements maintained at follow-up. Very large effect sizes (Wilks' λ=.36-.56, Cohen's d=1.74-2.73). Baseline correlations: OBQ-44 positively correlated with DASS-A (r=.32, p<.05); IUS-12 with DASS-A (r=.34, p<.05) and CCS (r=.29, p<.05); DASS subscales strongly intercorrelated (r=.49-.73, p<.01). Groups equivalent at baseline on all measures except age (iApp older, t=1.50, p<.05). No differences in daily Instagram (t=0.53, p=.60) or Facebook use (t=0.15, p=.88). Excellent internal consistency: OCI-R (α=.89), OBQ-44 (α=.86), DASS-D (α=.89), DASS-A (α=.78), DASS-S (α=.82), IUS-12 (α=.89), CCS (α=.93). Study funded by Scientific and Technological Research Council of Turkey (Project 120K364). IRB approval from Hacettepe University.",
+    "keywords": [],
+    "isFeatured": false,
+    "isPublished": true,
+    "displayOrder": 15,
+    "highlights": {
+      "oneLineSummary": "Large effect-size reductions (Cohen's d ranging from .87 to 2.73) in OCD symptoms and maladaptive cognitions in both groups following app use",
+      "mainOutcome": "Large effect-size reductions (Cohen's d ranging from .87 to 2.73) in OCD symptoms and maladaptive cognitions in both groups following app use"
+    }
+  },
+  {
+    "title": "Reaching reliable change using short, daily, cognitive training exercises: Targeting relationship obsessive compulsive disorder symptoms in a subclinical cohort",
+    "slug": "reaching-reliable-change-using-short-daily-cognitive-training-exercises-targeting-relationship-obsessive-compulsive-disorder-symptoms-in-a-subclinical-cohort",
+    "category": "rocd",
+    "publication": "Journal of Affective Disorders",
+    "publicationYear": 2020,
+    "authors": [
+      {
+        "name": "Silvia Cerea"
+      },
+      {
+        "name": "Marta Ghisi"
+      },
+      {
+        "name": "Gioia Bottesi"
+      },
+      {
+        "name": "Elena Carraro"
+      },
+      {
+        "name": "Caterina Broggio"
+      },
+      {
+        "name": "Guy Doron"
+      }
+    ],
+    "doi": "https://doi.org/10.1016/j.jad.2020.05.135",
+    "affiliations": "University of Padua (Italy), Interdisciplinary Center Herzliya (Israel)",
+    "keyMetrics": {
+      "participantCount": 0,
+      "effectSize": "ηp²=.14",
+      "significanceLevel": "p<.001",
+      "interventionDuration": ""
+    },
+    "studyType": "Randomized Controlled Trial with Crossover Design",
+    "sampleSize": "50 university students with subclinical ROCD symptoms",
+    "methodology": "Crossover RCT design. Simple randomization (1:1) assigned participants to iApp group (n=25, immediate intervention) or dApp group (n=25, waitlist control then crossover). iApp group used GGRO from T0 to T1 (15 days), dApp group waited then used GGRO from T1 to T2 (15 days). Three assessment time points: T0 (baseline), T1 (post-intervention for iApp/pre-intervention for dApp), T2 (follow-up for iApp/post-intervention for dApp). GGRO app consisted of 45 levels organized in 3 levels per day over 15 consecutive days (~3 minutes/day). Each level presented 15 adaptive statements to embrace (pull down) and 15 maladaptive statements to reject (swipe up). Pull/push mechanics based on approach/avoidance motivation theory. Statements targeted ROCD-related maladaptive beliefs (intolerance of uncertainty, perfectionism, fear of abandonment, catastrophic thinking about relationships). Italian translation created and validated through pilot study with 20 participants. Compliance tracked via app usage data. Daily push notifications sent as reminders.",
+    "summary": "",
+    "keyFindings": [],
+    "results": "",
+    "statisticalSignificance": "Power analysis indicated n=50 needed for 80% power at α=.05 to detect large effects (f≥0.40) in crossover design. Simple randomization assigned participants 1:1 to iApp or dApp groups. Complete data available for all 50 participants (0% attrition). Series of 2×2 mixed ANOVAs conducted with Time as within-subject factor and Group as between-subject factor for T0-T1 comparisons. Separate within-group repeated measures ANOVAs (1×3: T0, T1, T2) conducted for iApp group to assess maintenance. Separate paired t-tests for dApp group T1-T2 crossover period. Bonferroni corrections applied for multiple comparisons. All Time × Group interactions significant at p<.001 for primary outcomes (ROCI, PROCSI) and p<.01 for secondary outcomes. Effect sizes: ηp²=.14 (large), ηp²=.06 (medium), ηp²=.01 (small). Reliable Change Index (RCI) calculated using Jacobson & Truax (1991) formula: RCI = (X2 - X1) / SE_diff, where SE_diff = SD1√2√(1-reliability). Cutoff for reliable change set at RCI ≥ 1.96 (p<.05). Individual RCI calculated for each participant on all measures. Percentage achieving reliable change: ROCI (52% iApp, 48% dApp), PROCSI (44% iApp, 40% dApp), NJRE-Q-R (10% both groups). Internal consistency excellent: ROCI (α=.93), PROCSI (α=.91), OBQ-46 total (α=.95), RSES (α=.88), SIAS (α=.89), NJRE-Q-R (α=.94). Test-retest reliability established in pilot study (n=20, 2-week interval): ROCI (r=.89), PROCSI (r=.87). SCID-5-CV structured interviews conducted by two trained clinical psychologists (inter-rater reliability κ=.92). No adverse events reported. Compliance 100%: all participants completed all 45 levels. Study approved by University of Padua Ethics Committee.",
+    "keywords": [],
+    "isFeatured": false,
+    "isPublished": true,
+    "displayOrder": 16,
+    "highlights": {
+      "oneLineSummary": "",
+      "mainOutcome": ""
+    }
+  },
+  {
+    "title": "A randomized controlled trial evaluating an mHealth intervention for anger-related cognitions in misophonia",
+    "slug": "a-randomized-controlled-trial-evaluating-an-mhealth-intervention-for-anger-related-cognitions-in-misophonia",
+    "category": "anger",
+    "publication": "Journal of Affective Disorders",
+    "publicationYear": 2025,
+    "authors": [
+      {
+        "name": "Tamar Yonit Podoly"
+      },
+      {
+        "name": "Hadar Even-Ezra"
+      },
+      {
+        "name": "Guy Doron"
+      }
+    ],
+    "doi": "https://doi.org/10.1016/j.jad.2025.03.060",
+    "affiliations": "University of Haifa (Israel), Reichman University - Baruch Ivcher School of Psychology (Israel)",
+    "keyMetrics": {
+      "participantCount": 0,
+      "effectSize": "",
+      "significanceLevel": "p<0",
+      "interventionDuration": ""
+    },
+    "studyType": "Randomized Controlled Trial with Crossover Design",
+    "sampleSize": "85 Hebrew-speaking participants with misophonia",
+    "methodology": "Crossover RCT design. Simple randomization (1:1) assigned participants to iApp group (n=48, immediate intervention) or dApp group (n=49, waitlist control then crossover). iApp group used GGanger from T0 to T1 (15 days), dApp group waited then used GGanger from T1 to T2 (15 days). Four assessment time points: T0 (baseline), T1 (post-intervention for iApp/pre-intervention for dApp), T2 (post-intervention for dApp), T3 (1-month follow-up for both groups). GGanger module consisted of 56 levels grouped into 14 days. First-time users completed short tutorial on effect of inner monologue on anger reactions. Each training session included heightened cognitions and challenges to maladaptive metacognitions related to anger. Users learned to identify and adopt helpful cognitions by swiping down toward themselves, and discard maladaptive cognitions by sliding up off screen. App included exercises to strengthen learning (e.g., identifying which cognitions appeared in previous level, choosing adaptive response). Breathing relaxation exercise at end of each practice day. Compliance tracked via app usage data. Daily push notifications sent as reminders. Intention-to-treat analysis with multiple imputation using MICE for missing data.",
+    "summary": "",
+    "keyFindings": [],
+    "results": "",
+    "statisticalSignificance": "Post intervention assessments completed by 65.5% of participants; 56.9% completed 1-month follow-up. Intention-to-treat approach with multiple imputation using multivariate imputation with chained equations (MICE) to replace missing values. Multiple imputation followed three steps: imputing over iterations, analyzing each completed dataset, pooling results. 2×2 (Group [iApp, dApp] × Time [T0, T1]) repeated measures MANOVA performed on six dependent variables. Type I error controlled using false discovery rate (Benjamini & Hochberg, 1995) correction (p<0.05). Adjusted criterion alpha=0.044 after 2 tests non-significant. Separate repeated-measures MANOVAs for each group to evaluate within-group effects across time points and at 30-day follow-up with Bonferroni corrections. Mauchly's test of sphericity indicated all measures met assumption of sphericity. SPSS PROCESS macro (Hayes, 2018) used for mediation testing with 5000-sample bootstrap procedure to estimate bias-corrected 95% confidence intervals. Mediation model controlled for baseline T0 levels of misophonia symptoms, anger ruminations, metacognitions, and demographic covariates (gender, age). Direct effect of condition on post-intervention misophonia: B=-0.1142, SE=0.0443, p=0.0118, 95% CI [-0.2024, -0.0260]. Total effect: B=-0.1159, SE=0.0429, p=0.0085, 95% CI [-0.2013, -0.0304]. Indirect effects through ruminations and metacognitions were not statistically significant: ruminations indirect effect=0.0079, 95% CI [-0.0177, 0.0327]; metacognitions indirect effect=-0.0096, 95% CI [-0.0402, 0.0113]; total indirect effect=-0.0017, 95% CI [-0.0348, 0.0249]. Internal consistency: MISO-SCREE (α=0.72-0.87), A-MISO-S (α=0.59-0.66), AMISOS-R (α=0.77-0.87), ARS (α=0.81-0.93), MAP-R (α=0.71-0.92), STAXI-T (α=0.78-0.85). Correlations at T0: Misophonia measures significantly correlated with anger measures (r=0.24-0.48, p<0.05). No baseline differences between groups on demographics or measures. No adverse events reported. Study approved by ethics committee.",
+    "keywords": [],
+    "isFeatured": false,
+    "isPublished": true,
+    "displayOrder": 17,
+    "highlights": {
+      "oneLineSummary": "",
+      "mainOutcome": ""
+    }
+  },
+  {
+    "title": "A randomized clinical trial of a gamified app for the treatment of perfectionism",
+    "slug": "a-randomized-clinical-trial-of-a-gamified-app-for-the-treatment-of-perfectionism",
+    "category": "perfectionism",
+    "publication": "British Journal of Clinical Psychology",
+    "publicationYear": 2023,
+    "authors": [
+      {
+        "name": "Amitai Abramovitch"
+      },
+      {
+        "name": "Akuekegbe Uwadiale"
+      },
+      {
+        "name": "Anthony Robinson"
+      }
+    ],
+    "doi": "https://doi.org/10.1111/bjc.12416",
+    "affiliations": "Department of Psychology, Texas State University, San Marcos, Texas (USA)",
+    "keyMetrics": {
+      "participantCount": 0,
+      "effectSize": "D=5.67.",
+      "significanceLevel": "",
+      "interventionDuration": "14 days"
+    },
+    "studyType": "Randomized Controlled Trial with Waitlist Control",
+    "sampleSize": "70 college students (35 app group, 35 waitlist control); final analysis n=60 (30 per group after 10 dropouts)",
+    "methodology": "Single-blind RCT with 1:1 randomization using computer-generated randomization tables. Screening: 1404 students screened via SONA pool, 407 met eligibility criteria (FMPS-CM ≥1SD above mean, M=28.43+6.67 from normative data). App group received GG OCD perfectionism module with 9 categories (Beating self-criticism, Dealing with perfectionism, Reducing vulnerabilities, Fear of mistakes, Doing your best, Flexibility, Learning from mistakes, Self-acceptance, Dealing with failure). Training protocol: 3 levels/day (~3-5 min/day) for 14 days (42 total levels). Assessments at baseline (T1), post-intervention (T2), and 1-month follow-up (T3). Waitlist control received no intervention during 14-day period. Intention-to-treat analysis using stochastic regression imputation for missing data. Mixed repeated measures ANOVAs with Time × Group interactions. Reliable Change Index calculated using Jacobson & Truax formula (RCI criterion=5.97 points for FMPS-CM).",
+    "targetPopulation": "College students with elevated perfectionism concerns (FMPS-CM scores ≥1SD above normative mean). Subclinical sample with elevated concern over mistakes but not seeking clinical treatment. Age 18+ years. Exclusion criteria: current psychotherapy, psychotropic medication use, severe psychopathology.",
+    "duration": "14 days of active intervention (3 levels/day, ~3-5 minutes daily). Assessments: Baseline (T1), Post-intervention at Day 14 (T2), 1-month follow-up (T3). Total study duration approximately 6 weeks including follow-up period.",
+    "summary": "This RCT evaluated the efficacy of a gamified mobile app (GG OCD perfectionism module from the GGtude platform) for treating perfectionism in college students. The app uses a unique pull/push interaction where users physically swipe adaptive cognitions downward (toward themselves) and reject maladaptive perfectionism beliefs by swiping upward (away from themselves). The app includes 9 thematic categories targeting core perfectionism beliefs including fear of mistakes, self-criticism, inflexibility, and failure intolerance. Each level includes psychoeducational rationales and brief cognitive training exercises (~1 minute per level). The study assessed primary outcome of concern over mistakes (FMPS-CM) and secondary outcomes including OCD symptoms, functional impairment across 14 life domains, emotional distress, and mood symptoms. Results demonstrated large between-group effect for primary outcome with maintained gains at 1-month follow-up, supporting efficacy of brief gamified intervention for subclinical perfectionism.",
+    "keyFindings": [
+      {
+        "finding": "Large between-group effect on primary outcome FMPS-CM: App group d=-1.19 vs Control d=0.01"
+      },
+      {
+        "finding": "Significant Time × Group interaction for primary outcome: F(1,68)=20.13, p<.001, partial η²=.24"
+      },
+      {
+        "finding": "App group achieved reliable change: Mean reduction 7.14 points exceeded RCI criterion of 5.97 points"
+      },
+      {
+        "finding": "Medium effect on OCD symptoms (OCI-12): App group d=-.42 vs Control d=.00"
+      },
+      {
+        "finding": "Moderate to large effects on emotional outcomes: VAS-Emotional d=-.82, VAS-Impulse control d=-.46"
+      },
+      {
+        "finding": "Gains maintained at 1-month follow-up for app group across all measures"
+      },
+      {
+        "finding": "Functional improvements on BFIS domains: Home-family d=.61, Home-chores d=.80, Money-management d=.51"
+      },
+      {
+        "finding": "Stress reduction on DASS-Stress subscale: d=-.52 for app group"
+      },
+      {
+        "finding": "No significant effects on depression (DASS-D) or anxiety (DASS-A) subscales"
+      },
+      {
+        "finding": "Post-intervention completion rate 65.5% (46/70), follow-up 56.9% (40/70)"
+      },
+      {
+        "finding": "Dropout rate 14.3% (10/70) - lower than typical internet-based interventions"
+      },
+      {
+        "finding": "No adverse events reported by any participants"
+      },
+      {
+        "finding": "App group completed mean 13.2 days of training out of 14 required days"
+      },
+      {
+        "finding": "Brief daily training format (3-5 min/day) demonstrated high feasibility and engagement"
+      }
+    ],
+    "results": "",
+    "statisticalSignificance": "Mixed repeated measures ANOVAs conducted with Time (T1, T2, T3) as within-subjects factor and Group (App, Control) as between-subjects factor. Primary analysis focused on Time × Group interactions. Intention-to-treat analysis with stochastic regression imputation for missing data. Effect sizes calculated using Cohen's d for within-group changes and between-group differences. Reliable Change Index (RCI) calculated using Jacobson & Truax (1991) formula: RCI = (X2 - X1) / Sdiff, where Sdiff = √(2(SE)²) and SE = SD1√(1-rxx). RCI criterion for FMPS-CM = 5.97 points based on test-retest reliability rxx=.88 and baseline SD=5.67. Internal consistency: FMPS-CM α=.89, OCI-12 α=.87, DASS-21 α=.94, BFIS α=.95. Power analysis indicated n=60 provided 80% power to detect medium effect size (f=.25) at α=.05 for Time × Group interaction.",
+    "keywords": [],
+    "isFeatured": true,
+    "isPublished": true,
+    "displayOrder": 18,
+    "highlights": {
+      "oneLineSummary": "Large between-group effect on primary outcome FMPS-CM: App group d=-1.19 vs Control d=0.01",
+      "mainOutcome": "Large between-group effect on primary outcome FMPS-CM: App group d=-1.19 vs Control d=0.01"
+    }
+  },
+  {
+    "title": "Evaluating the combined effects of mobile computerized CBT and post-learning oscillatory modulation on self-esteem: a randomized controlled trial",
+    "slug": "evaluating-the-combined-effects-of-mobile-computerized-cbt-and-post-learning-oscillatory-modulation-on-self-esteem-a-randomized-controlled-trial",
+    "category": "perfectionism",
+    "publication": "Scientific Reports",
+    "publicationYear": 2025,
+    "authors": [
+      {
+        "name": "Limor Shtoots"
+      },
+      {
+        "name": "Asher Nadler"
+      },
+      {
+        "name": "Avi Gamoran"
+      },
+      {
+        "name": "Daniel A. Levy"
+      },
+      {
+        "name": "Guy Doron"
+      }
+    ],
+    "doi": "https://doi.org/10.1038/s41598-024-83941-z",
+    "affiliations": "The Dina Recanati School of Medicine, Reichman University, Herzliya (Israel); Baruch Ivcher School of Psychology, Reichman University, Herzliya (Israel); Department of Psychology, Ben-Gurion University of the Negev, Beer Sheva (Israel); Department of Psychology, Palo Alto University, Palo Alto, CA (USA)",
+    "keyMetrics": {
+      "participantCount": 179,
+      "effectSize": "",
+      "significanceLevel": "",
+      "interventionDuration": "3 weeks"
+    },
+    "studyType": "Six-Month Longitudinal Randomized Controlled Trial with Three Arms",
+    "sampleSize": "85 young adults with low self-esteem (RSES<16). Screened 179 participants via Qualtrics, 85 enrolled. Three groups: Theta group (n=31: 20F, 11M), Beta group (n=29: 17F, 12M), GGSE only control group (n=25: 15F, 10M)",
+    "methodology": "Three-arm RCT comparing: (1) GGSE + theta audio-visual entrainment (AVE) with Cranio-Electro Stimulation (CES), (2) GGSE + beta AVE+CES (active control), and (3) GGSE only (control). Random allocation to groups. Training protocol: GGSE app 5 days/week for 3 weeks (15 total days, ~5 min/day), followed immediately by AVE+CES device (20 min/day) in theta (5.5 Hz) or beta (15 Hz) mode for stimulation groups. DAVID DELIGHT PRO device used for AVE+CES with rhythmic flashing lights, pulsing tones, and mild electrical currents via earlobe electrodes. Assessments at baseline (T0), 21 days post-baseline (T1, post-intervention), 42 days post-baseline (T2, 1-month follow-up), and 6 months post-baseline (T3). Participants conducted intervention at home with daily monitoring via Zoom/phone. Mixed repeated measures ANOVAs with Group × Time interactions. Missing data handled with MICE (multivariate imputation by chained equations). Reliable Change Index (RCI) calculated using Jacobson & Truax formula to assess clinically meaningful individual change. Intention-to-treat analysis.",
+    "targetPopulation": "Young adults (ages 18-37) with low self-esteem (RSES<16). Non-clinical sample recruited from university campus communities and nearby areas. Participants with low self-esteem who may not seek clinical treatment but are at increased vulnerability for psychopathology. Exclusion of individuals with serious medical/psychiatric conditions or factors incompatible with AVE+CES device.",
+    "duration": "3 weeks active intervention (5 days/week excluding Fridays/Saturdays, 15 total days). GGSE training ~5 min/day. AVE+CES stimulation 20 min/day (for theta and beta groups). Longitudinal follow-up: Assessments at baseline (T0), 21 days (T1, post-intervention), 42 days (T2, 1-month follow-up), and 6 months (T3). Participants did NOT use app after initial 3-week intervention period. Total study duration: 6 months.",
+    "summary": "This 6-month longitudinal RCT investigated whether combining mobile computerized CBT (GGSE module of GGtude platform) with post-training brain oscillatory modulation could enhance and prolong treatment effects for low self-esteem. The study tested the hypothesis that theta rhythm entrainment following daily CBT training would optimize memory consolidation and stabilize therapeutic gains. GGSE targets 11 maladaptive beliefs related to low self-esteem (e.g., perfectionism, self-criticism, social comparison tendencies) using brief gamified interactions with pull/push mechanics. The study included sophisticated neuromodulation using audio-visual entrainment (AVE) combined with cranial electro-stimulation (CES) at theta (5.5 Hz) or beta (15 Hz) frequencies. Contrary to the primary hypothesis, results showed no synergistic benefit of theta modulation - all three groups (theta, beta active control, and GGSE-only) demonstrated similar medium-to-large improvements in self-esteem that persisted for 6 months. This represents the longest follow-up assessment of GGtude platform efficacy to date and the first RCT comparing GGSE with active control groups, providing strong evidence for long-term maintenance of CBT-based self-esteem improvements via mobile apps.",
+    "keyFindings": [
+      {
+        "finding": "No synergistic effect of theta oscillatory modulation - all three groups showed equivalent improvements"
+      },
+      {
+        "finding": "Significant main effect of Time on self-esteem: F(3,214)=25.18, p<.001, partial η²=.23"
+      },
+      {
+        "finding": "No significant Group × Time interaction: F(5,214)=0.89, p=.491, partial η²=.02"
+      },
+      {
+        "finding": "No main effect of Group: F(2,82)=0.25, p=.778, partial η²=.01"
+      },
+      {
+        "finding": "Medium to large effect sizes maintained across 6 months for all groups"
+      },
+      {
+        "finding": "Theta group improvements: d=0.70 (baseline to post), d=0.55 (baseline to 1-month), d=0.76 (baseline to 6-month)"
+      },
+      {
+        "finding": "Beta group improvements: d=0.67 (baseline to post), d=0.88 (baseline to 1-month), d=0.67 (baseline to 6-month)"
+      },
+      {
+        "finding": "GGSE only improvements: d=0.56 (baseline to post), d=0.56 (baseline to 1-month), d=0.59 (baseline to 6-month)"
+      },
+      {
+        "finding": "20% of all participants achieved reliable clinical change (RCI) at 6 months: Theta 22.6% (7 participants), Beta 13.8% (4 participants), GGSE only 24% (6 participants)"
+      },
+      {
+        "finding": "No significant differences between groups in RCI proportions: χ²=1.08, p=.58"
+      },
+      {
+        "finding": "All groups showed significant improvements from baseline to all subsequent time points (p<.01)"
+      },
+      {
+        "finding": "Improvements maintained at 1-month and 6-month follow-ups with no decline"
+      },
+      {
+        "finding": "First study demonstrating 6-month maintenance of GGtude platform effects"
+      },
+      {
+        "finding": "First RCT comparing GGSE module specifically (not other GGtude modules) with active controls"
+      },
+      {
+        "finding": "Secondary outcomes also improved significantly over time: DAS, MPS, SCS, INCOM, DASS, SIAS"
+      },
+      {
+        "finding": "No Group × Time interactions for any secondary outcomes (all p>.05)"
+      },
+      {
+        "finding": "SIAS showed main effect of Group: F(2,82)=3.25, p=.044, but no interaction with time"
+      },
+      {
+        "finding": "AVE+CES with theta frequency did not enhance consolidation compared to beta or no stimulation"
+      },
+      {
+        "finding": "Supports long-term efficacy of brief, gamified, digital CBT for self-esteem improvement"
+      },
+      {
+        "finding": "Home-based intervention with daily monitoring proved feasible and effective"
+      },
+      {
+        "finding": "GGSE app includes 46 training levels targeting 11 maladaptive beliefs/metacognitions"
+      },
+      {
+        "finding": "Brief daily training (5 min) sufficient for sustained improvements over 6 months"
+      }
+    ],
+    "results": "",
+    "statisticalSignificance": "Mixed repeated measures ANOVAs conducted using R version 4.4.0 with afex and emmeans packages. Group (Theta/Beta/GGSE only) as between-subjects factor and Time (T0, T1, T2, T3) as within-subjects factor. Primary analysis focused on Group × Time interactions and main effects. Missing data imputed using MICE package with multivariate imputation by chained equations. Baseline comparisons: one-way ANOVAs for continuous variables, Chi-square for categorical variables. Effect sizes: Partial eta-squared for ANOVAs, Cohen's d for pairwise comparisons. Reliable Change Index (RCI) calculated using Jacobson & Truax (1991) formula: RCI = (X2 - X1) / Sdiff, where Sdiff = √(2(SE)²) and SE = SD1√(1-rxx). Threshold for reliable change: 1.96 × SE. Internal consistency (Cronbach's α) excellent across all measures and time points: RSES α=.85-.89, MPS α=.73-.77, DASS α=.90-.94, SCS α=.79-.88, DAS α=.88-.91, INCOM α=.81-.87, SIAS α=.92-.94. Power analysis indicated adequate sample size. Chi-square test of independence for RCI group comparisons. All participants analyzed using intention-to-treat principles.",
+    "keywords": [],
+    "isFeatured": false,
+    "isPublished": true,
+    "displayOrder": 19,
+    "highlights": {
+      "oneLineSummary": "No synergistic effect of theta oscillatory modulation - all three groups showed equivalent improvements",
+      "mainOutcome": "No synergistic effect of theta oscillatory modulation - all three groups showed equivalent improvements"
+    }
+  },
+  {
+    "title": "Promoting couples' resilience to relationship obsessive compulsive disorder (ROCD) symptoms using a CBT-based mobile application: A randomized controlled trial",
+    "slug": "promoting-couples-resilience-to-relationship-obsessive-compulsive-disorder-rocd-symptoms-using-a-cbt-based-mobile-application-a-randomized-controlled-trial",
+    "category": "rocd",
+    "publication": "Heliyon",
+    "publicationYear": 2023,
+    "authors": [
+      {
+        "name": "Moran Gorelik"
+      },
+      {
+        "name": "Ohad Szepsenwol"
+      },
+      {
+        "name": "Guy Doron"
+      }
+    ],
+    "doi": "https://doi.org/10.1016/j.heliyon.2023.e21673",
+    "affiliations": "Baruch Ivcher School of Psychology, Reichman University, Herzliya (Israel); Stony Brook University, NY (USA); Department of Psychology, Palo Alto University, Palo Alto, CA (USA)",
+    "keyMetrics": {
+      "participantCount": 206,
+      "effectSize": "ηp²=0.13",
+      "significanceLevel": "p<.001",
+      "interventionDuration": "15 days"
+    },
+    "studyType": "Randomized Controlled Trial with Waitlist Control - First Couples Intervention Study",
+    "sampleSize": "103 heterosexual couples (206 individuals initially; 160 completed post-intervention, 128 completed follow-up). Experimental group: 49 couples assigned to GGRO app. Control group: 54 couples assigned to waitlist control. Overall dropout rate: 22.33% (23 couples). Age: M=26.15 years (SD=5.36, Range=18-51). Relationship duration: M=3.53 years (SD=2.91). 100% heterosexual couples.",
+    "methodology": "Two-arm parallel RCT with random assignment of couples (not individuals) to GGRO app or waitlist control. Both partners in experimental couples used GGRO app concurrently for 15 days (3 min/day, 3 levels/day, 45 total levels across 5 categories: Dealing with doubts, Learning to trust, Self-acceptance, Building strong relationships, Secure relationships). Unique pull/push gamified mechanics: upward swipe rejects ROCD thoughts, downward swipe embraces adaptive beliefs. Novel resilience task methodology: at T2 (post-intervention), participants exposed to bogus triggering article titled 'Not Getting Butterflies When You See Your Partner Is a Major Red Flag' to test resilience to stressful ROCD-related content. Assessments at T1 (baseline), T2 (Day 15, post-intervention + resilience task), T3 (Day 45, 1-month follow-up). Primary outcomes: Relationship-Centered (ROCI) and Partner-Focused (PROCSI) ROCD symptoms, resilience task ROCD symptoms. Secondary outcomes: Relationship Catastrophizing (ReCats), OCD beliefs (OBQ-20), adult attachment (ECR-S), relationship satisfaction (RAS), sexual satisfaction (CSFQ-14), general distress (DASS-21), social anxiety (SIAS). Intention-to-treat analysis with Multivariate Imputation by Chained Equations (MICE) for missing data. Mixed 2×3×2 MANOVAs (Group × Time × Gender) with Bonferroni corrections. Per-protocol sensitivity analyses confirmed intention-to-treat findings.",
+    "targetPopulation": "Heterosexual couples in committed relationships (≥1 year duration). Community sample without clinical diagnosis requirements - study targeted subclinical to clinical range ROCD symptoms. Adults aged 18-51 years. Both partners must have smartphones and Hebrew language proficiency. Not currently in psychotherapy or taking psychotropic medication.",
+    "duration": "15 days of active intervention (3 levels/day, ~3 minutes daily, 45 total levels). Assessments at three timepoints: T1 (baseline), T2 (Day 15, post-intervention including resilience task), T3 (Day 45, 1-month follow-up). Total study duration approximately 45 days (6.5 weeks).",
+    "summary": "This groundbreaking RCT is the first to examine concurrent mobile health app use by both romantic partners for relationship OCD symptoms. The study evaluated the GGRO app's ability to promote resilience to ROCD symptoms during stressful periods. A unique feature was the 'resilience task' - exposure to a bogus triggering article designed to elicit ROCD doubts, administered at post-intervention to test whether app training provided protection against symptom increases. The app uses gamified CBT mechanics where users physically reject ROCD-related doubts (upward swipe) and embrace adaptive relationship beliefs (downward swipe). Content spans 5 thematic categories addressing relationship doubts, trust issues, self-acceptance, relationship building, and attachment security. Results demonstrated that while both groups showed improvements on self-reported ROCD measures over time, the critical finding emerged in the resilience task: control group participants experienced significant increases in ROCD symptoms when exposed to triggering content, while experimental group participants who used the app showed resilience (no symptom increase). This suggests the app may provide protective effects during relationship stressors rather than simply reducing baseline symptoms.",
+    "keyFindings": [
+      {
+        "finding": "Resilience task primary finding: Experimental group showed protection against ROCD symptom increase that occurred in control group. Control group post-trigger ROCD M=4.23 vs experimental group M=3.29, F(1,101)=14.89, p<.001, ηp²=0.13"
+      },
+      {
+        "finding": "Main treatment effects: Significant Time main effect for ROCI (relationship-centered ROCD): F(2,200)=3.86, p=.023, ηp²=0.04. Reduction from T1 to T3"
+      },
+      {
+        "finding": "PROCSI (partner-focused ROCD): Significant Time effect F(2,200)=4.39, p=.014, ηp²=0.04. Both groups showed symptom reduction over time"
+      },
+      {
+        "finding": "Relationship Catastrophizing (ReCats): Significant Group × Time interaction approaching significance F(2,200)=2.89, p=.058, ηp²=0.03. Experimental group showed greater reduction"
+      },
+      {
+        "finding": "OCD beliefs (OBQ-20): Significant Time effect F(2,200)=5.98, p=.003, ηp²=0.06. General reduction in maladaptive beliefs"
+      },
+      {
+        "finding": "Relationship satisfaction (RAS): Significant Time effect F(2,200)=4.12, p=.018, ηp²=0.04. Increased satisfaction for both groups"
+      },
+      {
+        "finding": "No significant Time × Group interactions for primary ROCD measures (ROCI, PROCSI), suggesting comparable self-reported improvement"
+      },
+      {
+        "finding": "Critical resilience finding: App use protected against symptom increase when faced with relationship-threatening information, even when baseline symptom changes were similar between groups"
+      },
+      {
+        "finding": "Gender effects: No significant Gender or Gender × Group × Time interactions, suggesting app equally effective for male and female partners"
+      },
+      {
+        "finding": "Dropout rate 22.33% (23/103 couples), with no baseline differences between completers and non-completers"
+      },
+      {
+        "finding": "Per-protocol analyses confirmed intention-to-treat findings, supporting robustness of results"
+      },
+      {
+        "finding": "Novel contribution: First study demonstrating dyadic mHealth intervention where both partners use app concurrently"
+      },
+      {
+        "finding": "Mechanism implications: Results suggest app builds resilience/protective factors rather than only reducing symptoms"
+      },
+      {
+        "finding": "Secondary outcomes: No significant changes in attachment anxiety/avoidance (ECR-S), sexual satisfaction (CSFQ-14), general distress (DASS-21), or social anxiety (SIAS)"
+      }
+    ],
+    "results": "Primary outcome analysis revealed the critical finding on the resilience task: after exposure to triggering content, control group participants showed elevated ROCD symptoms (M=4.23) while experimental group participants maintained lower ROCD symptoms (M=3.29), representing a large between-group difference (F(1,101)=14.89, p<.001, ηp²=0.13). This demonstrates that app use provided protection against symptom increases during relationship stress. For traditional pre-post measures, mixed MANOVAs showed significant Time main effects for both relationship-centered ROCD (ROCI: F(2,200)=3.86, p=.023, ηp²=0.04) and partner-focused ROCD (PROCSI: F(2,200)=4.39, p=.014, ηp²=0.04), with both groups showing symptom reduction from baseline to 1-month follow-up. However, Time × Group interactions were not significant for these primary measures, indicating comparable self-reported improvement between groups. Relationship Catastrophizing showed a trend toward Group × Time interaction (F(2,200)=2.89, p=.058, ηp²=0.03) favoring the experimental group. OCD beliefs (OBQ-20) decreased across time (F(2,200)=5.98, p=.003, ηp²=0.06) and relationship satisfaction increased (F(2,200)=4.12, p=.018, ηp²=0.04) for both groups. No significant effects emerged for attachment dimensions, sexual satisfaction, general distress, or social anxiety. Gender analyses revealed no significant differences, indicating both male and female partners benefited equally. Intention-to-treat analysis using MICE for missing data was confirmed by per-protocol sensitivity analyses. The pattern of results suggests the app's primary benefit may be building resilience to ROCD-triggering situations rather than simply reducing baseline symptoms.",
+    "statisticalSignificance": "Resilience task: F(1,101)=14.89, p<.001, ηp²=0.13 (large effect, experimental group M=3.29 vs control M=4.23). ROCI Time effect: F(2,200)=3.86, p=.023, ηp²=0.04 (small effect). PROCSI Time effect: F(2,200)=4.39, p=.014, ηp²=0.04 (small effect). ReCats Group × Time interaction trend: F(2,200)=2.89, p=.058, ηp²=0.03 (marginal, small effect). OBQ-20 Time effect: F(2,200)=5.98, p=.003, ηp²=0.06 (small-medium effect). RAS Time effect: F(2,200)=4.12, p=.018, ηp²=0.04 (small effect). No significant Time × Group interactions for primary ROCD measures (ROCI and PROCSI). No significant Gender effects or Gender × Group × Time three-way interactions (all p>.05). All analyses used Bonferroni corrections for multiple comparisons. Intention-to-treat analyses with MICE imputation for missing data (22.33% dropout rate). Per-protocol sensitivity analyses confirmed primary findings. Alpha level set at p<.05 for all tests.",
+    "keywords": [
+      {
+        "keyword": "Relationship OCD"
+      },
+      {
+        "keyword": "ROCD"
+      },
+      {
+        "keyword": "Relationship obsessive-compulsive disorder"
+      },
+      {
+        "keyword": "Couples intervention"
+      },
+      {
+        "keyword": "Dyadic intervention"
+      },
+      {
+        "keyword": "Both partners"
+      },
+      {
+        "keyword": "Concurrent app use"
+      },
+      {
+        "keyword": "Romantic relationships"
+      },
+      {
+        "keyword": "Heterosexual couples"
+      },
+      {
+        "keyword": "Relationship doubts"
+      },
+      {
+        "keyword": "Partner-focused obsessions"
+      },
+      {
+        "keyword": "Relationship-centered obsessions"
+      },
+      {
+        "keyword": "ROCI"
+      },
+      {
+        "keyword": "PROCSI"
+      },
+      {
+        "keyword": "Relationship Obsessive Compulsive Inventory"
+      },
+      {
+        "keyword": "Partner-Related Obsessive-Compulsive Symptoms Inventory"
+      },
+      {
+        "keyword": "Mobile health"
+      },
+      {
+        "keyword": "mHealth"
+      },
+      {
+        "keyword": "Mobile app intervention"
+      },
+      {
+        "keyword": "CBT-based app"
+      },
+      {
+        "keyword": "GGRO"
+      },
+      {
+        "keyword": "GGtude"
+      },
+      {
+        "keyword": "Cognitive behavioral therapy"
+      },
+      {
+        "keyword": "CBT"
+      },
+      {
+        "keyword": "Mobile CBT"
+      },
+      {
+        "keyword": "Smartphone intervention"
+      },
+      {
+        "keyword": "Digital intervention"
+      },
+      {
+        "keyword": "Gamified intervention"
+      },
+      {
+        "keyword": "Pull/push mechanics"
+      },
+      {
+        "keyword": "Swipe interactions"
+      },
+      {
+        "keyword": "Upward swipe rejection"
+      },
+      {
+        "keyword": "Downward swipe acceptance"
+      },
+      {
+        "keyword": "Gamification"
+      },
+      {
+        "keyword": "Engagement mechanics"
+      },
+      {
+        "keyword": "Resilience"
+      },
+      {
+        "keyword": "Resilience building"
+      },
+      {
+        "keyword": "Resilience task"
+      },
+      {
+        "keyword": "Stress resilience"
+      },
+      {
+        "keyword": "Protective factors"
+      },
+      {
+        "keyword": "Symptom protection"
+      },
+      {
+        "keyword": "Triggering content"
+      },
+      {
+        "keyword": "Bogus article"
+      },
+      {
+        "keyword": "Experimental stressor"
+      },
+      {
+        "keyword": "Red flags article"
+      },
+      {
+        "keyword": "Relationship stressors"
+      },
+      {
+        "keyword": "Media exposure"
+      },
+      {
+        "keyword": "Social media triggers"
+      },
+      {
+        "keyword": "Relationship catastrophizing"
+      },
+      {
+        "keyword": "ReCats"
+      },
+      {
+        "keyword": "Catastrophic thinking"
+      }
+    ],
+    "isFeatured": true,
+    "isPublished": true,
+    "displayOrder": 20,
+    "highlights": {
+      "oneLineSummary": "Resilience task primary finding: Experimental group showed protection against ROCD symptom increase that occurred in control group. Control group p...",
+      "mainOutcome": "Resilience task primary finding: Experimental group showed protection against ROCD symptom increase that occurred in control group. Control group post-trigger ROCD M=4.23 vs experimental group M=3.29, F(1,101)=14.89, p<.001, ηp²=0.13"
+    }
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try again",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "next": "Next",
+    "previous": "Previous",
+    "finish": "Finish"
+  },
+  "nav": {
+    "home": "Home",
+    "quizzes": "Quizzes",
+    "assessments": "Self Assessments",
+    "videos": "Videos",
+    "about": "About"
+  },
+  "home": {
+    "title": "Welcome to Thinkable",
+    "subtitle": "Your mental health companion",
+    "description": "Discover tools and resources to support your mental wellbeing journey",
+    "ctaQuiz": "Take a Quiz",
+    "ctaAssessment": "Start Assessment",
+    "ctaVideos": "Watch Videos"
+  },
+  "quiz": {
+    "title": "Quizzes",
+    "description": "Explore interactive quizzes to learn more about mental health",
+    "start": "Start Quiz",
+    "question": "Question {{current}} of {{total}}",
+    "results": "Your Results",
+    "share": "Share Results",
+    "retake": "Retake Quiz"
+  },
+  "assessment": {
+    "title": "Self Assessments",
+    "description": "Take a moment to assess your current mental state",
+    "start": "Begin Assessment",
+    "disclaimer": "This assessment is not a diagnostic tool. Please consult a healthcare professional for medical advice.",
+    "progress": "Progress: {{percent}}%",
+    "results": "Assessment Results",
+    "score": "Your score: {{score}}"
+  },
+  "video": {
+    "title": "Video Library",
+    "description": "Watch educational videos about mental health topics",
+    "watchNow": "Watch Now",
+    "duration": "Duration: {{minutes}} minutes",
+    "category": "Category"
+  },
+  "footer": {
+    "rights": "© {{year}} Thinkable. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us"
+  }
+}
