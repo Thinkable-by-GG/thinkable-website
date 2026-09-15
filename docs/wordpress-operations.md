@@ -28,7 +28,11 @@
   definition in `functions.php`, bump the version string, push. Editing in the CF7 UI will be overwritten on the next bump.
 - Until 2026-09-15 `skip_mail: on` meant no email was sent; the 66 Flamingo messages collected since June were all bots
   (crypto bait, random-string names) plus two QA entries. Forms version `2026-09-15-forms-3` changes that:
-  - **Mail on**, recipient = *Settings → Thinkable Forms → Notification email* (default `info@thinkable.app`). Flamingo still keeps every submission.
+  - **Mail is a switch** (*Settings → Thinkable Forms → Send notification email*, off by default) because the host has **no mail
+    transport**: `wp_mail()` fails with "Could not instantiate mail function" (`/usr/sbin/sendmail` missing, no SMTP). The
+    "Send a test email now" button on the settings page reproduces this. Until an SMTP relay is configured (WP Mail SMTP plugin with
+    the Resend account that already sends from `mailer@hello.thinkable.app`, or Google Workspace SMTP for `info@thinkable.app`),
+    keep the switch off — with it on, every clean submission ends in `mail_failed` and the visitor sees an error. Flamingo keeps every submission.
   - **Honeypot** field `website` (off-screen span inside the submit paragraph, so the grid CSS is unchanged).
   - **Heuristics** in `thinkable_forms_spam_reason()`: links/crypto words, emoji, throwaway domains, dotted-Gmail, random-string names or companies.
     Spam is stored in Flamingo's spam folder with a `thinkable-forms` log entry and the visitor sees CF7's generic error.

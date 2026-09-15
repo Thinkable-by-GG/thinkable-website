@@ -205,7 +205,7 @@ function thinkable_save_cf7_form($option_name, $definition, $preferred_id = 0)
             'exclude_blank' => 0,
         ],
         'messages' => $messages,
-        'additional_settings' => "flamingo_email: [work-email]\nflamingo_name: [full-name]\nflamingo_subject: [_site_title] form submission",
+        'additional_settings' => (thinkable_forms_option('send_mail') === '1' ? '' : "skip_mail: on\n") . "flamingo_email: [work-email]\nflamingo_name: [full-name]\nflamingo_subject: [_site_title] form submission",
     ]);
 
     $form_id = absint($form->save());
@@ -222,7 +222,7 @@ add_action('init', function () {
         return;
     }
 
-    $version = '2026-09-15-forms-3';
+    $version = '2026-09-15-forms-4';
 
     if (get_option('thinkable_cf7_forms_version') === $version) {
         return;
@@ -253,6 +253,7 @@ function thinkable_forms_defaults()
 {
     return [
         'notify_email' => 'info@thinkable.app',
+        'send_mail' => '0',
         'turnstile_site_key' => '',
         'turnstile_secret' => '',
         'forward_enabled' => '0',
@@ -283,6 +284,9 @@ add_action('admin_init', function () {
                 $clean[$key] = sanitize_text_field((string) ($input[$key] ?? ''));
             }
             $clean['forward_enabled'] = !empty($input['forward_enabled']) ? '1' : '0';
+            $clean['send_mail'] = !empty($input['send_mail']) ? '1' : '0';
+            // The CF7 forms embed the mail switch, so re-provision them on the next request.
+            delete_option('thinkable_cf7_forms_version');
             return $clean;
         },
     ]);
@@ -307,11 +311,32 @@ function thinkable_forms_settings_page()
         echo '<input class="regular-text" type="' . $type . '" id="tf-' . esc_attr($key) . '" name="thinkable_forms[' . esc_attr($key) . ']" value="' . esc_attr(thinkable_forms_option($key)) . '" />';
         echo '<p class="description">' . esc_html($help) . '</p></td></tr>';
     }
+    echo '<tr><th scope="row">Send notification email</th><td><label><input type="checkbox" name="thinkable_forms[send_mail]" value="1" ' . checked(thinkable_forms_option('send_mail'), '1', false) . ' /> Enabled (needs a working mail transport on the host; when off, submissions are only stored in Flamingo and forwarded)</label> <a class="button" href="' . esc_url(wp_nonce_url(admin_url('admin-post.php?action=thinkable_mail_test'), 'thinkable_mail_test')) . '">Send a test email now</a></td></tr>';
     echo '<tr><th scope="row">Forward leads to partner-api</th><td><label><input type="checkbox" name="thinkable_forms[forward_enabled]" value="1" ' . checked(thinkable_forms_option('forward_enabled'), '1', false) . ' /> Enabled (needs a funnel or partner code; otherwise leads would be misfiled)</label></td></tr>';
     echo '</table>';
     submit_button();
     echo '</form></div>';
 }
+
+// Admin-only mail diagnostic: Settings -> Thinkable Forms -> "Send a test email now".
+add_action('admin_post_thinkable_mail_test', function () {
+    if (!current_user_can('manage_options') || !wp_verify_nonce(sanitize_text_field(wp_unslash($_GET['_wpnonce'] ?? '')), 'thinkable_mail_test')) {
+        wp_die('Not allowed.');
+    }
+    $errors = [];
+    add_action('wp_mail_failed', function ($error) use (&$errors) {
+        $errors[] = $error->get_error_message() . ' ' . wp_json_encode($error->get_error_data());
+    });
+    $to = thinkable_forms_option('notify_email');
+    $ok = wp_mail($to, 'Thinkable mail test ' . gmdate('c'), "Test message from thinkable.app (" . home_url('/') . ").\nIf you read this, wp_mail works.");
+    header('Content-Type: text/plain; charset=utf-8');
+    echo 'wp_mail(' . $to . ') => ' . ($ok ? 'true' : 'false') . "\n";
+    echo 'php mail() available: ' . (function_exists('mail') ? 'yes' : 'no') . "\n";
+    echo 'sendmail_path: ' . (string) ini_get('sendmail_path') . "\n";
+    echo 'SMTP ini: ' . (string) ini_get('SMTP') . ':' . (string) ini_get('smtp_port') . "\n";
+    echo 'errors: ' . ($errors ? implode("\n", $errors) : 'none') . "\n";
+    exit;
+});
 
 // Turnstile widget as a CF7 form-tag; renders nothing until a site key is configured.
 add_action('wpcf7_init', function () {
