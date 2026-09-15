@@ -13,6 +13,12 @@ Repo for **thinkable.app**, Thinkable's partner-facing marketing site. Live site
 - Positioning rules from the site: Thinkable is a *support layer*, "not a replacement for care"; forms are
   B2B only, never clinical/emergency. Keep the escalation/safety language.
 
+## Platform Knowledge Base
+Cross-project docs live at `/Users/gurilany/dev/thinkable-platform-knowledge-base` (MCP server `thinkable-kb`; project id: `thinkable-website`).
+- **Before adding an API client, service, or data model:** check `services-catalog.md` / `projects/*/api.md` (or MCP `search` / `services_catalog`) — it may already exist in another project (e.g. the studies library on `/science-evidence` is topic-services `GET /services/api/studies`; lead forwarding targets partner-api `POST /api/leads/ingest`).
+- **After changing a public API, data model, env var, deploy step, a form, or the Terms / Privacy pages:** notify the KB — MCP `add_inbox_entry`, or write `inbox/YYYY-MM-DD-thinkable-website-<slug>.md` there (format in `inbox/README.md`). The KB folds it into the docs daily. The legal pages are cited in Twilio and funnel consent flows, so their URLs and SMS wording must stay stable — record any change.
+- The KB's own copy of this project: `projects/thinkable-website/{overview,api,data,services}.md`.
+
 ## How things work
 - `npm run wp:pull` is the only way content/theme enter the repo — never hand-edit `docs/content-inventory.md`
   or `src/styles/site.css` (generated). Edit `content/**.md` or `wordpress/theme/**` and push.
