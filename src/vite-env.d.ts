@@ -1,10 +1,7 @@
 /// <reference types="vite/client" />
 
 interface ImportMetaEnv {
-  readonly VITE_API_URL: string;
-  // Add more env variables as needed
-}
-
-interface ImportMeta {
-  readonly env: ImportMetaEnv;
+  readonly VITE_WP_URL?: string;
+  readonly VITE_FORMS_BASE?: string;
+  readonly VITE_STUDIES_API?: string;
 }

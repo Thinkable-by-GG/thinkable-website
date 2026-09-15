@@ -1,21 +1,16 @@
 import { Link } from 'react-router-dom';
-import { Container, Title, Text, Button, Stack, Center } from '@mantine/core';
+import { useDocumentMeta } from '@/lib/useDocumentMeta';
 
 export function NotFoundPage() {
+  useDocumentMeta('Page not found · Thinkable', 'The page you were looking for does not exist.');
   return (
-    <Container size="md" py="xl">
-      <Center h={400}>
-        <Stack gap="md" align="center">
-          <Title order={1} size={100}>404</Title>
-          <Title order={2}>Page Not Found</Title>
-          <Text size="lg" c="dimmed" ta="center">
-            The page you are looking for does not exist or has been moved.
-          </Text>
-          <Button component={Link} to="/" size="lg" mt="md">
-            Go Home
-          </Button>
-        </Stack>
-      </Center>
-    </Container>
+    <main className="internal-page" id="main">
+      <div className="not-found">
+        <p className="eyebrow">404</p>
+        <h1>Page not found</h1>
+        <p>The page you were looking for does not exist or has moved.</p>
+        <Link className="button button-primary" to="/">Back to home</Link>
+      </div>
+    </main>
   );
 }

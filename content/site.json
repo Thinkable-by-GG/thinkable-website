@@ -1,0 +1,677 @@
+{
+  "pulledAt": "2026-09-15T11:05:45.992Z",
+  "url": "https://thinkable.app",
+  "title": "Thinkable Health",
+  "tagline": "",
+  "adminEmail": "gur@ggtude.com",
+  "language": "en_US",
+  "wordpress": {
+    "namespaces": [
+      "oembed/1.0",
+      "contact-form-7/v1",
+      "wp/v2",
+      "wp-site-health/v1",
+      "wp-block-editor/v1",
+      "wp-abilities/v1"
+    ]
+  },
+  "theme": {
+    "slug": "thinkable-shai",
+    "files": [
+      "favicon.svg",
+      "functions.php",
+      "index.php",
+      "internal.css",
+      "page-blog.php",
+      "page-internal.php",
+      "page-main-design.php",
+      "page-partner-demo.php",
+      "page-resource-article.php",
+      "single.php",
+      "style.css",
+      "styles.css",
+      "template-parts/site-footer.php",
+      "template-parts/site-header.php"
+    ]
+  },
+  "frontPageId": 9,
+  "navigation": [
+    {
+      "label": "Use Cases",
+      "path": "/use-cases"
+    },
+    {
+      "label": "Evidence",
+      "path": "/science-evidence"
+    },
+    {
+      "label": "Resources",
+      "path": "/resources"
+    },
+    {
+      "label": "Blog",
+      "path": "/blog"
+    },
+    {
+      "label": "Partner Demo",
+      "path": "/partner-demo"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact",
+      "style": "button"
+    }
+  ],
+  "footerLinks": [
+    {
+      "label": "Privacy Policy",
+      "path": "/privacy-policy"
+    },
+    {
+      "label": "Terms",
+      "path": "/terms"
+    }
+  ],
+  "contactEmail": "info@thinkable.app",
+  "legalEntity": "GGTUDE LTD, doing business as Thinkable",
+  "analytics": {
+    "ga4": "G-RPW89LCFYM"
+  },
+  "studiesApi": "https://api.ggtude.com/services/api/studies",
+  "metaDescriptions": {
+    "": "Thinkable helps clinics and mental health organizations connect with better-fit patient populations through evidence-informed digital support and partner-fit review.",
+    "use-cases": "Explore Thinkable use cases for clinics, digital health teams, employers, medical device partners, and research organizations reviewing mental health support.",
+    "science-evidence": "Review Thinkable evidence, published studies, research context, and partner evaluation guidance for responsible mental health implementation.",
+    "resources": "Read Thinkable resources for partner teams evaluating audience needs, workflow fit, evidence expectations, and implementation questions before a demo.",
+    "blog": "Read Thinkable insights for clinics, digital health teams, employers, research partners, and organizations evaluating structured mental health support.",
+    "partner-demo": "Request a Thinkable partner demo and share your organization type, use case, audience, and implementation context for review.",
+    "contact": "Contact Thinkable for partnership opportunities, resources, product questions, media inquiries, and general business requests.",
+    "privacy-policy": "Read the Thinkable privacy policy for information about how website and form information is collected, used, and protected.",
+    "terms": "Read the Thinkable terms for website use, content, partner inquiries, and related business information."
+  },
+  "forms": [
+    {
+      "id": 189,
+      "title": "Thinkable Partner Demo Form",
+      "slug": "contact-form-1",
+      "form": {
+        "content": "<label>Full name\n[text* full-name autocomplete:name]</label>\n\n<label>Work email\n[email* work-email autocomplete:email]</label>\n\n<label>Company or organization\n[text* company-name autocomplete:organization]</label>\n\n<label>Organization type\n[select* organization-type include_blank \"Clinic or care organization\" \"Digital health company\" \"Medical device company\" \"Employer or EAP program\" \"Research or academic partner\" \"Other partner organization\"]</label>\n\n<label>Primary use case\n[select* use-case include_blank \"Between-session support\" \"Digital product support layer\" \"Treatment education and follow-up\" \"Employee or EAP support\" \"Research or clinical collaboration\" \"Not sure yet\"]</label>\n\n<label>Audience served\n[text audience placeholder \"Patients, employees, members, teams\"]</label>\n\n<label>What would you like to explore?\n[textarea notes placeholder \"Share the support gap, current workflow, review needs, or timing.\"]</label>\n\n[submit \"Request partner demo\"]",
+        "fields": [
+          {
+            "type": "text*",
+            "basetype": "text",
+            "name": "full-name",
+            "options": [
+              "autocomplete:name"
+            ],
+            "raw_values": [],
+            "labels": [],
+            "values": [],
+            "pipes": [],
+            "content": ""
+          },
+          {
+            "type": "email*",
+            "basetype": "email",
+            "name": "work-email",
+            "options": [
+              "autocomplete:email"
+            ],
+            "raw_values": [],
+            "labels": [],
+            "values": [],
+            "pipes": [],
+            "content": ""
+          },
+          {
+            "type": "text*",
+            "basetype": "text",
+            "name": "company-name",
+            "options": [
+              "autocomplete:organization"
+            ],
+            "raw_values": [],
+            "labels": [],
+            "values": [],
+            "pipes": [],
+            "content": ""
+          },
+          {
+            "type": "select*",
+            "basetype": "select",
+            "name": "organization-type",
+            "options": [
+              "include_blank"
+            ],
+            "raw_values": [
+              "Clinic or care organization",
+              "Digital health company",
+              "Medical device company",
+              "Employer or EAP program",
+              "Research or academic partner",
+              "Other partner organization"
+            ],
+            "labels": [
+              "Clinic or care organization",
+              "Digital health company",
+              "Medical device company",
+              "Employer or EAP program",
+              "Research or academic partner",
+              "Other partner organization"
+            ],
+            "values": [
+              "Clinic or care organization",
+              "Digital health company",
+              "Medical device company",
+              "Employer or EAP program",
+              "Research or academic partner",
+              "Other partner organization"
+            ],
+            "pipes": [
+              [
+                "Clinic or care organization",
+                "Clinic or care organization"
+              ],
+              [
+                "Digital health company",
+                "Digital health company"
+              ],
+              [
+                "Medical device company",
+                "Medical device company"
+              ],
+              [
+                "Employer or EAP program",
+                "Employer or EAP program"
+              ],
+              [
+                "Research or academic partner",
+                "Research or academic partner"
+              ],
+              [
+                "Other partner organization",
+                "Other partner organization"
+              ]
+            ],
+            "content": ""
+          },
+          {
+            "type": "select*",
+            "basetype": "select",
+            "name": "use-case",
+            "options": [
+              "include_blank"
+            ],
+            "raw_values": [
+              "Between-session support",
+              "Digital product support layer",
+              "Treatment education and follow-up",
+              "Employee or EAP support",
+              "Research or clinical collaboration",
+              "Not sure yet"
+            ],
+            "labels": [
+              "Between-session support",
+              "Digital product support layer",
+              "Treatment education and follow-up",
+              "Employee or EAP support",
+              "Research or clinical collaboration",
+              "Not sure yet"
+            ],
+            "values": [
+              "Between-session support",
+              "Digital product support layer",
+              "Treatment education and follow-up",
+              "Employee or EAP support",
+              "Research or clinical collaboration",
+              "Not sure yet"
+            ],
+            "pipes": [
+              [
+                "Between-session support",
+                "Between-session support"
+              ],
+              [
+                "Digital product support layer",
+                "Digital product support layer"
+              ],
+              [
+                "Treatment education and follow-up",
+                "Treatment education and follow-up"
+              ],
+              [
+                "Employee or EAP support",
+                "Employee or EAP support"
+              ],
+              [
+                "Research or clinical collaboration",
+                "Research or clinical collaboration"
+              ],
+              [
+                "Not sure yet",
+                "Not sure yet"
+              ]
+            ],
+            "content": ""
+          },
+          {
+            "type": "text",
+            "basetype": "text",
+            "name": "audience",
+            "options": [
+              "placeholder"
+            ],
+            "raw_values": [
+              "Patients, employees, members, teams"
+            ],
+            "labels": [
+              "Patients, employees, members, teams"
+            ],
+            "values": [
+              "Patients, employees, members, teams"
+            ],
+            "pipes": [
+              [
+                "Patients, employees, members, teams",
+                "Patients, employees, members, teams"
+              ]
+            ],
+            "content": ""
+          },
+          {
+            "type": "textarea",
+            "basetype": "textarea",
+            "name": "notes",
+            "options": [
+              "placeholder"
+            ],
+            "raw_values": [
+              "Share the support gap, current workflow, review needs, or timing."
+            ],
+            "labels": [
+              "Share the support gap, current workflow, review needs, or timing."
+            ],
+            "values": [
+              "Share the support gap, current workflow, review needs, or timing."
+            ],
+            "pipes": [
+              [
+                "Share the support gap, current workflow, review needs, or timing.",
+                "Share the support gap, current workflow, review needs, or timing."
+              ]
+            ],
+            "content": ""
+          },
+          {
+            "type": "submit",
+            "basetype": "submit",
+            "name": "",
+            "options": [],
+            "raw_values": [
+              "Request partner demo"
+            ],
+            "labels": [
+              "Request partner demo"
+            ],
+            "values": [
+              "Request partner demo"
+            ],
+            "pipes": [
+              [
+                "Request partner demo",
+                "Request partner demo"
+              ]
+            ],
+            "content": ""
+          }
+        ]
+      },
+      "mail": {
+        "active": true,
+        "subject": "New Thinkable partner demo request",
+        "sender": "[_site_title] <wordpress@thinkable.app>",
+        "recipient": "[_site_admin_email]",
+        "body": "A new Thinkable partner demo request was submitted.\n\nName: [full-name]\nWork email: [work-email]\nCompany: [company-name]\nOrganization type: [organization-type]\nPrimary use case: [use-case]\nAudience served: [audience]\n\nNotes:\n[notes]\n\n--\nSubmitted from [_site_title] [_site_url]",
+        "additional_headers": "Reply-To: [work-email]",
+        "attachments": "",
+        "use_html": true,
+        "exclude_blank": true
+      },
+      "messages": {
+        "mail_sent_ok": "Thank you. Your request was submitted.",
+        "mail_sent_ng": "There was an error trying to send your request. Please try again later.",
+        "validation_error": "Please complete the required fields and try again.",
+        "spam": "There was an error trying to send your message. Please try again later.",
+        "accept_terms": "You must accept the terms and conditions before sending your message.",
+        "invalid_required": "Please fill out this field.",
+        "invalid_too_long": "This field has a too long input.",
+        "invalid_too_short": "This field has a too short input.",
+        "upload_failed": "There was an unknown error uploading the file.",
+        "upload_file_type_invalid": "You are not allowed to upload files of this type.",
+        "upload_file_too_large": "The uploaded file is too large.",
+        "upload_failed_php_error": "There was an error uploading the file.",
+        "invalid_date": "Please enter a date in YYYY-MM-DD format.",
+        "date_too_early": "This field has a too early date.",
+        "date_too_late": "This field has a too late date.",
+        "invalid_number": "Please enter a number.",
+        "number_too_small": "This field has a too small number.",
+        "number_too_large": "This field has a too large number.",
+        "quiz_answer_not_correct": "The answer to the quiz is incorrect.",
+        "invalid_email": "Please enter an email address.",
+        "invalid_url": "Please enter a URL.",
+        "invalid_tel": "Please enter a telephone number.",
+        "captcha_not_match": "Your entered code is incorrect."
+      }
+    },
+    {
+      "id": 204,
+      "title": "Thinkable Homepage Fit Form",
+      "slug": "thinkable-homepage-fit-form",
+      "form": {
+        "content": "<label>Name\n[text* full-name autocomplete:name placeholder \"Name\"]</label>\n\n<label>Your role\n[text role placeholder \"Your role\"]</label>\n\n<label>Work email\n[email* work-email autocomplete:email placeholder \"Work email*\"]</label>\n\n<label>Monthly patient inquiries\n[text monthly-inquiries placeholder \"Monthly patient inquiries\"]</label>\n\n<label>Clinic, company or organization\n[text* company-name placeholder \"Clinic, company or organization\"]</label>\n\n<label>Patient focus\n[text audience placeholder \"Patient focus or specialty\"]</label>\n\n[hidden organization-type \"Clinic or care organization\"]\n[hidden use-case \"Not sure yet\"]\n\n[submit \"CHECK PATIENT FIT\"]",
+        "fields": [
+          {
+            "type": "text*",
+            "basetype": "text",
+            "name": "full-name",
+            "options": [
+              "autocomplete:name",
+              "placeholder"
+            ],
+            "raw_values": [
+              "Name"
+            ],
+            "labels": [
+              "Name"
+            ],
+            "values": [
+              "Name"
+            ],
+            "pipes": [
+              [
+                "Name",
+                "Name"
+              ]
+            ],
+            "content": ""
+          },
+          {
+            "type": "text",
+            "basetype": "text",
+            "name": "role",
+            "options": [
+              "placeholder"
+            ],
+            "raw_values": [
+              "Your role"
+            ],
+            "labels": [
+              "Your role"
+            ],
+            "values": [
+              "Your role"
+            ],
+            "pipes": [
+              [
+                "Your role",
+                "Your role"
+              ]
+            ],
+            "content": ""
+          },
+          {
+            "type": "email*",
+            "basetype": "email",
+            "name": "work-email",
+            "options": [
+              "autocomplete:email",
+              "placeholder"
+            ],
+            "raw_values": [
+              "Work email*"
+            ],
+            "labels": [
+              "Work email*"
+            ],
+            "values": [
+              "Work email*"
+            ],
+            "pipes": [
+              [
+                "Work email*",
+                "Work email*"
+              ]
+            ],
+            "content": ""
+          },
+          {
+            "type": "text",
+            "basetype": "text",
+            "name": "monthly-inquiries",
+            "options": [
+              "placeholder"
+            ],
+            "raw_values": [
+              "Monthly patient inquiries"
+            ],
+            "labels": [
+              "Monthly patient inquiries"
+            ],
+            "values": [
+              "Monthly patient inquiries"
+            ],
+            "pipes": [
+              [
+                "Monthly patient inquiries",
+                "Monthly patient inquiries"
+              ]
+            ],
+            "content": ""
+          },
+          {
+            "type": "text*",
+            "basetype": "text",
+            "name": "company-name",
+            "options": [
+              "placeholder"
+            ],
+            "raw_values": [
+              "Clinic, company or organization"
+            ],
+            "labels": [
+              "Clinic, company or organization"
+            ],
+            "values": [
+              "Clinic, company or organization"
+            ],
+            "pipes": [
+              [
+                "Clinic, company or organization",
+                "Clinic, company or organization"
+              ]
+            ],
+            "content": ""
+          },
+          {
+            "type": "text",
+            "basetype": "text",
+            "name": "audience",
+            "options": [
+              "placeholder"
+            ],
+            "raw_values": [
+              "Patient focus or specialty"
+            ],
+            "labels": [
+              "Patient focus or specialty"
+            ],
+            "values": [
+              "Patient focus or specialty"
+            ],
+            "pipes": [
+              [
+                "Patient focus or specialty",
+                "Patient focus or specialty"
+              ]
+            ],
+            "content": ""
+          },
+          {
+            "type": "hidden",
+            "basetype": "hidden",
+            "name": "organization-type",
+            "options": [],
+            "raw_values": [
+              "Clinic or care organization"
+            ],
+            "labels": [
+              "Clinic or care organization"
+            ],
+            "values": [
+              "Clinic or care organization"
+            ],
+            "pipes": [
+              [
+                "Clinic or care organization",
+                "Clinic or care organization"
+              ]
+            ],
+            "content": ""
+          },
+          {
+            "type": "hidden",
+            "basetype": "hidden",
+            "name": "use-case",
+            "options": [],
+            "raw_values": [
+              "Not sure yet"
+            ],
+            "labels": [
+              "Not sure yet"
+            ],
+            "values": [
+              "Not sure yet"
+            ],
+            "pipes": [
+              [
+                "Not sure yet",
+                "Not sure yet"
+              ]
+            ],
+            "content": ""
+          },
+          {
+            "type": "submit",
+            "basetype": "submit",
+            "name": "",
+            "options": [],
+            "raw_values": [
+              "CHECK PATIENT FIT"
+            ],
+            "labels": [
+              "CHECK PATIENT FIT"
+            ],
+            "values": [
+              "CHECK PATIENT FIT"
+            ],
+            "pipes": [
+              [
+                "CHECK PATIENT FIT",
+                "CHECK PATIENT FIT"
+              ]
+            ],
+            "content": ""
+          }
+        ]
+      },
+      "mail": {
+        "active": true,
+        "subject": "New Thinkable homepage fit request",
+        "sender": "[_site_title] <wordpress@thinkable.app>",
+        "recipient": "[_site_admin_email]",
+        "body": "A new Thinkable homepage fit request was submitted.\n\nName: [full-name]\nWork email: [work-email]\nRole: [role]\nCompany: [company-name]\nMonthly patient inquiries: [monthly-inquiries]\nAudience served: [audience]\nOrganization type: [organization-type]\nPrimary use case: [use-case]\n\n--\nSubmitted from [_site_title] [_site_url]",
+        "additional_headers": "Reply-To: [work-email]",
+        "attachments": "",
+        "use_html": true,
+        "exclude_blank": true
+      },
+      "messages": {
+        "mail_sent_ok": "Thank you. Your request was submitted.",
+        "mail_sent_ng": "There was an error trying to send your request. Please try again later.",
+        "validation_error": "Please complete the required fields and try again.",
+        "spam": "There was an error trying to send your message. Please try again later.",
+        "accept_terms": "You must accept the terms and conditions before sending your message.",
+        "invalid_required": "Please fill out this field.",
+        "invalid_too_long": "This field has a too long input.",
+        "invalid_too_short": "This field has a too short input.",
+        "upload_failed": "There was an unknown error uploading the file.",
+        "upload_file_type_invalid": "You are not allowed to upload files of this type.",
+        "upload_file_too_large": "The uploaded file is too large.",
+        "upload_failed_php_error": "There was an error uploading the file.",
+        "invalid_date": "Please enter a date in YYYY-MM-DD format.",
+        "date_too_early": "This field has a too early date.",
+        "date_too_late": "This field has a too late date.",
+        "invalid_number": "Please enter a number.",
+        "number_too_small": "This field has a too small number.",
+        "number_too_large": "This field has a too large number.",
+        "quiz_answer_not_correct": "The answer to the quiz is incorrect.",
+        "invalid_email": "Please enter an email address.",
+        "invalid_url": "Please enter a URL.",
+        "invalid_tel": "Please enter a telephone number.",
+        "captcha_not_match": "Your entered code is incorrect."
+      }
+    }
+  ],
+  "media": [
+    {
+      "id": 139,
+      "url": "https://thinkable.app/wp-content/uploads/2026/06/thinkable-clinical-tablet.png",
+      "local": "/uploads/thinkable-clinical-tablet.png",
+      "alt": "Clinical professional and partner reviewing care support on a tablet",
+      "title": "Thinkable clinical tablet review",
+      "mime": "image/png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": 138,
+      "url": "https://thinkable.app/wp-content/uploads/2026/06/thinkable-partner-planning.png",
+      "local": "/uploads/thinkable-partner-planning.png",
+      "alt": "Two professionals reviewing partner rollout planning on a tablet",
+      "title": "Thinkable partner planning conversation",
+      "mime": "image/png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": 137,
+      "url": "https://thinkable.app/wp-content/uploads/2026/06/thinkable-resource-workspace.png",
+      "local": "/uploads/thinkable-resource-workspace.png",
+      "alt": "Mental health resource planning workspace with tablet and care pathway materials",
+      "title": "Thinkable resource planning workspace",
+      "mime": "image/png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": 136,
+      "url": "https://thinkable.app/wp-content/uploads/2026/06/thinkable-partnership-team.png",
+      "local": "/uploads/thinkable-partnership-team.png",
+      "alt": "Partnership team reviewing mental health support planning in a modern office",
+      "title": "Thinkable partnership team discussion",
+      "mime": "image/png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": 135,
+      "url": "https://thinkable.app/wp-content/uploads/2026/06/thinkable-evidence-review.png",
+      "local": "/uploads/thinkable-evidence-review.png",
+      "alt": "Evidence review workspace with tablet, notes, and calm teal accents",
+      "title": "Thinkable evidence review workspace",
+      "mime": "image/png",
+      "width": 1672,
+      "height": 941
+    }
+  ]
+}

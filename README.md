@@ -1,240 +1,77 @@
-# Thinkable - Mental Health Platform
+# Thinkable website (thinkable.app)
 
-A modern, engaging mental health platform built with React, TypeScript, Mantine UI, and Payload CMS.
+Source of truth for **https://thinkable.app**, the partner-facing site of Thinkable (GGTUDE LTD).
 
-## Features
+The live site runs on **WordPress 7.1** with the custom theme `thinkable-shai` and two plugins
+(Contact Form 7 for the forms, Flamingo for storing submissions). This repository:
 
-- 🧠 **Interactive Quizzes** - Engaging quiz funnels to explore mental health topics
-- 📋 **Self Assessments** - Comprehensive mental health self-assessment tools
-- 🎥 **Video Library** - Educational video content with media management
-- 🌍 **Multilingual Support** - English and Hebrew with RTL support
-- 📱 **Responsive Design** - Mobile-first, accessible interface
-- 🎨 **Modern UI** - Built with Mantine Design System
-- 📝 **Headless CMS** - Payload CMS for easy content management
+1. **Mirrors the live site** — theme source, every page and post, forms, media — so changes are
+   reviewed in git before they go live (`wordpress/`, `content/`, `public/`).
+2. **Syncs with WordPress** in both directions through `scripts/wp/*` (`npm run wp:pull`,
+   `npm run wp:push:theme`, `npm run wp:push:content`).
+3. **Rebuilds the site as a React/Vite app** (`src/`) that renders the same content and design from
+   the mirrored files. It is the path off WordPress when we want it, and a safe place to prototype
+   changes (`npm run dev`).
 
-## Tech Stack
+## Layout
 
-### Frontend
-- **React 18** - Modern React with hooks
-- **TypeScript** - Type-safe development
-- **Vite** - Fast build tool and dev server
-- **Mantine UI** - Comprehensive React component library
-- **React Router** - Client-side routing
-- **i18next** - Internationalization with RTL support
+| Path | What it is |
+|---|---|
+| `wordpress/theme/thinkable-shai/` | Exact copy of the live theme (PHP templates, `styles.css`, `internal.css`, `functions.php`). Edit here, then `npm run wp:push:theme <file>`. |
+| `content/pages/**.md`, `content/posts/*.md` | Raw WordPress content (HTML body) with frontmatter: id, path, title, excerpt, template, featured image. Edit here, then `npm run wp:push:content <file>`. |
+| `content/site.json` | Site settings, navigation, footer, meta descriptions, Contact Form 7 form definitions, media index. |
+| `public/images/`, `public/uploads/` | Theme images and media-library files (binary, pulled once). |
+| `src/` | React rebuild: `pages/` are ports of the PHP templates, `components/` of the template parts, `content/` loads the markdown, `styles/site.css` is generated from the theme CSS. |
+| `scripts/wp/` | WordPress client and sync scripts (see [docs/wordpress-operations.md](docs/wordpress-operations.md)). |
+| `docs/` | [content-inventory.md](docs/content-inventory.md) (generated), [wordpress-operations.md](docs/wordpress-operations.md), [site-vs-business-focus.md](docs/site-vs-business-focus.md). |
+| `collateral/` | One-pager PDFs (EN, JA). `logos/` — brand marks. |
 
-### Backend / CMS
-- **Payload CMS** - TypeScript-first headless CMS
-- **MongoDB** - Database for CMS content
-- **Express** - Backend server
+## Site map (as live, September 2026)
 
-## Prerequisites
+- `/` — "Thinkable Patient Fit" home: hero, fit-check form, business problem, product path, trust, demo CTA
+- `/use-cases` + 5 partner types (clinics, digital health, medical device, employer/EAP, research)
+- `/buyers` + 5 buyer paths (same partner types, not in the main nav)
+- `/science-evidence` — evidence framing + **research library** pulled live from `https://api.ggtude.com/services/api/studies` (22 studies, 14 RCTs)
+- `/resources` + 12 resource articles
+- `/blog` + 12 posts (May–June 2026)
+- `/partner-demo`, `/partner-demo-thank-you`, `/contact`, `/privacy-policy`, `/terms`
 
-Before you begin, ensure you have the following installed:
-- Node.js (v18 or higher)
-- npm or yarn
-- MongoDB (local installation or MongoDB Atlas account)
+Navigation: Use Cases · Evidence · Resources · Blog · Partner Demo · Contact (button).
 
-## Getting Started
+## Working with the site
 
-### 1. Install Dependencies
-
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+cp .env.example .env          # optional; scripts read ~/dev/creds/thinkable-app-wordpress.md by default
 
-### 2. Set Up Environment Variables
+npm run wp:pull               # refresh content/, wordpress/theme/, public/uploads, docs/content-inventory.md
+npm run wp:diff               # which local theme files differ from the server
+npm run wp:push:theme functions.php            # push + verify one theme file
+npm run wp:push:content content/pages/contact.md --dry-run
 
-Copy the example environment file and update with your values:
+npm run dev                   # React rebuild at http://localhost:3000 (forms proxy to live WP)
+npm run build && npm run preview
+```
 
-\`\`\`bash
-cp .env.example .env
-\`\`\`
+Workflow for a copy or design change on the live site: `wp:pull` → edit `content/` or `wordpress/theme/`
+→ preview in `npm run dev` → `wp:push:*` → commit.
 
-Update the following in your `.env` file:
-- `MONGODB_URI` - Your MongoDB connection string
-- `PAYLOAD_SECRET` - A secure random string for Payload CMS
-- Other configuration as needed
+## Forms and leads
 
-### 3. Start MongoDB
+Both forms (home "Check patient fit", Partner Demo) are Contact Form 7 forms whose definitions are
+provisioned by `functions.php` (`thinkable_partner_form_definition`, `thinkable_homepage_fit_form_definition`).
+`additional_settings` has **`skip_mail: on`**, so submissions are **not emailed** — they are stored in
+**Flamingo → Inbound Messages** in wp-admin. Successful submissions redirect to `/partner-demo-thank-you`.
+The React rebuild posts to the same CF7 REST endpoint (`/wp-json/contact-form-7/v1/contact-forms/<id>/feedback`).
 
-If using local MongoDB:
+## Hosting
 
-\`\`\`bash
-mongod
-\`\`\`
+DNS for `thinkable.app` points to an AWS host (63.183.1.198) that is **not** one of the servers listed in
+`~/.claude/CLAUDE.md`; there is no SSH deploy — the theme is edited through wp-admin, which is what the
+sync scripts automate. Google Analytics 4 property `G-RPW89LCFYM` is injected by `functions.php`.
 
-Or use MongoDB Atlas cloud database.
+## History
 
-### 4. Run the Development Servers
-
-You'll need to run two servers:
-
-**Terminal 1 - Frontend (Vite)**:
-\`\`\`bash
-npm run dev
-\`\`\`
-
-**Terminal 2 - Backend (Payload CMS)**:
-\`\`\`bash
-npm run payload
-\`\`\`
-
-### 5. Access the Application
-
-- **Frontend**: http://localhost:3000
-- **CMS Admin Panel**: http://localhost:3001/admin
-
-### 6. Create Your First Admin User
-
-When you first access the CMS admin panel at http://localhost:3001/admin, you'll be prompted to create an admin user.
-
-## Project Structure
-
-\`\`\`
-thinkable-website/
-├── src/
-│   ├── cms/                    # Payload CMS configuration
-│   │   ├── collections/        # CMS collection schemas
-│   │   │   ├── Users.ts
-│   │   │   ├── Quizzes.ts
-│   │   │   ├── Assessments.ts
-│   │   │   ├── Videos.ts
-│   │   │   └── Media.ts
-│   │   ├── payload.config.ts   # Main CMS config
-│   │   └── server.ts           # CMS server
-│   ├── components/             # React components
-│   │   └── layout/
-│   │       ├── Header.tsx
-│   │       └── Footer.tsx
-│   ├── pages/                  # Page components
-│   │   ├── HomePage.tsx
-│   │   ├── QuizPage.tsx
-│   │   ├── AssessmentPage.tsx
-│   │   ├── VideoLibraryPage.tsx
-│   │   ├── AboutPage.tsx
-│   │   └── NotFoundPage.tsx
-│   ├── i18n/                   # Internationalization
-│   │   ├── config.ts
-│   │   └── locales/
-│   │       ├── en.json
-│   │       └── he.json
-│   ├── styles/                 # Global styles
-│   │   └── global.css
-│   ├── App.tsx                 # Main app component
-│   └── main.tsx               # App entry point
-├── index.html
-├── package.json
-├── vite.config.ts
-├── tsconfig.json
-└── README.md
-\`\`\`
-
-## CMS Collections
-
-### Quizzes
-- Multilingual quiz content
-- Multiple choice questions
-- Score ranges and results
-- Categories and thumbnails
-
-### Assessments
-- Self-assessment tools
-- Scale-based and multiple choice questions
-- Score-based results with recommendations
-- Safety disclaimers
-
-### Videos
-- Video file management
-- Categories and tags
-- Thumbnails and transcripts
-- Related video suggestions
-
-### Media
-- Image and video uploads
-- Automatic resizing
-- Multiple image sizes (thumbnail, card, tablet)
-
-## Internationalization
-
-The platform supports multiple languages with proper RTL support:
-
-- **English (en)** - Default language (LTR)
-- **Hebrew (he)** - RTL support
-
-To add a new language:
-1. Add the locale in `src/i18n/locales/[lang].json`
-2. Update `src/i18n/config.ts` to include the new language
-3. Add the language option in `src/cms/payload.config.ts`
-
-## Building for Production
-
-\`\`\`bash
-npm run build
-\`\`\`
-
-This will create optimized production builds in the `dist` folder.
-
-## Available Scripts
-
-- `npm run dev` - Start frontend development server
-- `npm run build` - Build frontend for production
-- `npm run preview` - Preview production build
-- `npm run payload` - Start Payload CMS server
-- `npm run generate:types` - Generate TypeScript types from CMS
-
-## Development Tips
-
-### Working with the CMS
-
-1. Start both servers (frontend and CMS)
-2. Create content in the CMS admin panel
-3. Content is automatically available via the API at `/api/[collection-name]`
-4. Update frontend components to fetch from the CMS API instead of using mock data
-
-### RTL Support
-
-The app automatically detects the language direction:
-- Language switcher in the header
-- Automatic RTL/LTR switching
-- Mantine UI components are RTL-aware
-
-### Adding New Pages
-
-1. Create a new component in `src/pages/`
-2. Add the route in `src/App.tsx`
-3. Add navigation link in `src/components/layout/Header.tsx`
-4. Add translations in `src/i18n/locales/`
-
-## Deployment
-
-### Frontend Deployment (Vercel, Netlify, etc.)
-
-1. Build the frontend: `npm run build`
-2. Deploy the `dist` folder
-3. Set environment variables in your hosting platform
-
-### Backend/CMS Deployment
-
-Deploy the Payload CMS server to:
-- Railway
-- Render
-- Heroku
-- Any Node.js hosting platform
-
-Ensure MongoDB is accessible from your deployment environment.
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
-
-## License
-
-Copyright © 2024 Thinkable. All rights reserved.
-
-## Support
-
-For support, please visit [thinkable.app](https://thinkable.app) or create an issue in the repository.
+Until June 2026 this repo held a React + Payload CMS consumer site (quizzes, assessments, videos, EN/HE).
+That deployment was replaced by the WordPress partner site; the old code is in git history before the
+"Realign repo with live WordPress site" commit.

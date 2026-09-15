@@ -2,26 +2,22 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 
+const WP_URL = process.env.VITE_WP_URL || 'https://thinkable.app';
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
-      '@/components': path.resolve(__dirname, './src/components'),
-      '@/pages': path.resolve(__dirname, './src/pages'),
-      '@/i18n': path.resolve(__dirname, './src/i18n'),
-      '@/hooks': path.resolve(__dirname, './src/hooks'),
-      '@/types': path.resolve(__dirname, './src/types'),
+      '@content': path.resolve(__dirname, './content'),
     },
   },
   server: {
     port: 3000,
     proxy: {
-      '/api': {
-        target: 'http://localhost:3001',
-        changeOrigin: true,
-      },
+      // Contact Form 7 submissions go to the live WordPress in dev (avoids CORS).
+      '/wp-json': { target: WP_URL, changeOrigin: true, secure: true },
     },
   },
 });
