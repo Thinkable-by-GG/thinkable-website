@@ -62,3 +62,6 @@ input[type="submit"][disabled] { opacity: 0.7; cursor: progress; }
 .not-found { max-width: 720px; margin: 0 auto; padding: 96px 24px 120px; text-align: center; }
 .not-found h1 { font-family: var(--heading); font-size: 48px; margin: 0 0 16px; }
 .not-found p { color: var(--muted); font-size: 18px; margin: 0 0 28px; }
+
+/* Honeypot field (see functions.php): off-screen, never filled by humans. */
+.thinkable-hp { position: absolute !important; left: -9999px !important; width: 1px !important; height: 1px !important; overflow: hidden !important; opacity: 0 !important; }

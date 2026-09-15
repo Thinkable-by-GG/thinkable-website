@@ -103,9 +103,11 @@ function thinkable_partner_form_definition()
             '[text audience placeholder "Patients, employees, members, teams"]</label>' . "\n\n" .
             '<label>What would you like to explore?' . "\n" .
             '[textarea notes placeholder "Share the support gap, current workflow, review needs, or timing."]</label>' . "\n\n" .
-            '[submit "Request partner demo"]',
+            '[thinkable_turnstile]' . "\n" .
+            '[submit "Request partner demo"]' . "\n" .
+            '<span class="thinkable-hp" aria-hidden="true"><label>Website [text website autocomplete:off tabindex:-1]</label></span>',
         'mail' => [
-            'recipient' => '[_site_admin_email]',
+            'recipient' => thinkable_forms_option('notify_email'),
             'sender' => '[_site_title] <wordpress@thinkable.app>',
             'subject' => 'New Thinkable partner demo request',
             'additional_headers' => 'Reply-To: [work-email]',
@@ -135,9 +137,11 @@ function thinkable_homepage_fit_form_definition()
             '[text audience placeholder "Patient focus or specialty"]</label>' . "\n\n" .
             '[hidden organization-type "Clinic or care organization"]' . "\n" .
             '[hidden use-case "Not sure yet"]' . "\n\n" .
-            '[submit "CHECK PATIENT FIT"]',
+            '[thinkable_turnstile]' . "\n" .
+            '[submit "CHECK PATIENT FIT"]' . "\n" .
+            '<span class="thinkable-hp" aria-hidden="true"><label>Website [text website autocomplete:off tabindex:-1]</label></span>',
         'mail' => [
-            'recipient' => '[_site_admin_email]',
+            'recipient' => thinkable_forms_option('notify_email'),
             'sender' => '[_site_title] <wordpress@thinkable.app>',
             'subject' => 'New Thinkable homepage fit request',
             'additional_headers' => 'Reply-To: [work-email]',
@@ -201,7 +205,7 @@ function thinkable_save_cf7_form($option_name, $definition, $preferred_id = 0)
             'exclude_blank' => 0,
         ],
         'messages' => $messages,
-        'additional_settings' => "skip_mail: on\nflamingo_email: [work-email]\nflamingo_name: [full-name]\nflamingo_subject: [_site_title] form submission",
+        'additional_settings' => "flamingo_email: [work-email]\nflamingo_name: [full-name]\nflamingo_subject: [_site_title] form submission",
     ]);
 
     $form_id = absint($form->save());
@@ -218,7 +222,7 @@ add_action('init', function () {
         return;
     }
 
-    $version = '2026-06-29-forms-2';
+    $version = '2026-09-15-forms-3';
 
     if (get_option('thinkable_cf7_forms_version') === $version) {
         return;
@@ -239,6 +243,232 @@ function thinkable_cf7_shortcode($option_name, $title)
 
     return do_shortcode(sprintf('[contact-form-7 id="%d" title="%s"]', $form_id, esc_attr($title)));
 }
+
+// ---------------------------------------------------------------------------
+// Forms: settings page (Settings -> Thinkable Forms), spam protection, lead forwarding.
+// Added 2026-09-15 after the Flamingo inbox turned out to be 100% bot traffic.
+// ---------------------------------------------------------------------------
+
+function thinkable_forms_defaults()
+{
+    return [
+        'notify_email' => 'info@thinkable.app',
+        'turnstile_site_key' => '',
+        'turnstile_secret' => '',
+        'forward_enabled' => '0',
+        'forward_url' => 'https://partner.thinkable.app/api/leads/ingest',
+        'forward_funnel_code' => '',
+        'forward_partner_code' => '',
+    ];
+}
+
+function thinkable_forms_option($key)
+{
+    $options = get_option('thinkable_forms', []);
+    $defaults = thinkable_forms_defaults();
+    $value = isset($options[$key]) && $options[$key] !== '' ? $options[$key] : ($defaults[$key] ?? '');
+    return is_string($value) ? trim($value) : $value;
+}
+
+add_action('admin_menu', function () {
+    add_options_page('Thinkable Forms', 'Thinkable Forms', 'manage_options', 'thinkable-forms', 'thinkable_forms_settings_page');
+});
+
+add_action('admin_init', function () {
+    register_setting('thinkable_forms', 'thinkable_forms', [
+        'type' => 'array',
+        'sanitize_callback' => function ($input) {
+            $clean = [];
+            foreach (array_keys(thinkable_forms_defaults()) as $key) {
+                $clean[$key] = sanitize_text_field((string) ($input[$key] ?? ''));
+            }
+            $clean['forward_enabled'] = !empty($input['forward_enabled']) ? '1' : '0';
+            return $clean;
+        },
+    ]);
+});
+
+function thinkable_forms_settings_page()
+{
+    $fields = [
+        'notify_email' => ['Notification email', 'Where Contact Form 7 sends each submission (Flamingo keeps a copy either way).'],
+        'turnstile_site_key' => ['Cloudflare Turnstile site key', 'Leave empty to run without Turnstile (honeypot + heuristics only).'],
+        'turnstile_secret' => ['Cloudflare Turnstile secret key', 'Server-side verification key.'],
+        'forward_url' => ['Lead forwarding endpoint', 'partner-api leads ingest.'],
+        'forward_funnel_code' => ['Lead forwarding funnel code', 'Funnel slug in partner-api that owns website inquiries.'],
+        'forward_partner_code' => ['Lead forwarding partner code', 'Org slug fallback when no funnel code is set.'],
+    ];
+    echo '<div class="wrap"><h1>Thinkable Forms</h1><form method="post" action="options.php">';
+    settings_fields('thinkable_forms');
+    echo '<table class="form-table" role="presentation">';
+    foreach ($fields as $key => [$label, $help]) {
+        $type = $key === 'turnstile_secret' ? 'password' : 'text';
+        echo '<tr><th scope="row"><label for="tf-' . esc_attr($key) . '">' . esc_html($label) . '</label></th><td>';
+        echo '<input class="regular-text" type="' . $type . '" id="tf-' . esc_attr($key) . '" name="thinkable_forms[' . esc_attr($key) . ']" value="' . esc_attr(thinkable_forms_option($key)) . '" />';
+        echo '<p class="description">' . esc_html($help) . '</p></td></tr>';
+    }
+    echo '<tr><th scope="row">Forward leads to partner-api</th><td><label><input type="checkbox" name="thinkable_forms[forward_enabled]" value="1" ' . checked(thinkable_forms_option('forward_enabled'), '1', false) . ' /> Enabled (needs a funnel or partner code; otherwise leads would be misfiled)</label></td></tr>';
+    echo '</table>';
+    submit_button();
+    echo '</form></div>';
+}
+
+// Turnstile widget as a CF7 form-tag; renders nothing until a site key is configured.
+add_action('wpcf7_init', function () {
+    if (!function_exists('wpcf7_add_form_tag')) {
+        return;
+    }
+    wpcf7_add_form_tag('thinkable_turnstile', function () {
+        $site_key = thinkable_forms_option('turnstile_site_key');
+        if ($site_key === '') {
+            return '';
+        }
+        return '<span class="wpcf7-form-control-wrap thinkable-turnstile"><span class="cf-turnstile" data-sitekey="' . esc_attr($site_key) . '" data-theme="light"></span></span>';
+    }, ['display-block' => true]);
+});
+
+add_action('wp_enqueue_scripts', function () {
+    if (thinkable_forms_option('turnstile_site_key') !== '') {
+        wp_enqueue_script('cf-turnstile', 'https://challenges.cloudflare.com/turnstile/v0/api.js', [], null, ['strategy' => 'defer']);
+    }
+});
+
+add_action('wp_head', function () {
+    echo '<style id="thinkable-forms-hp">.thinkable-hp{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden!important;opacity:0!important}.thinkable-turnstile{display:block;margin:0 0 12px}</style>' . "\n";
+}, 3);
+
+function thinkable_forms_spam_reason(array $posted)
+{
+    if (trim((string) ($posted['website'] ?? '')) !== '') {
+        return 'honeypot';
+    }
+
+    $name = (string) ($posted['full-name'] ?? '');
+    $email = strtolower(trim((string) ($posted['work-email'] ?? '')));
+    $company = (string) ($posted['company-name'] ?? '');
+    $free_text = implode(' ', array_map('strval', array_intersect_key($posted, array_flip(['full-name', 'company-name', 'role', 'audience', 'notes', 'monthly-inquiries']))));
+
+    if (preg_match('~https?://|www\.|graph\.org|telegra\.ph|\bbtc\b|bitcoin|usdt|coinbase|mining|crypto|deposit available|credit available~i', $free_text)) {
+        return 'link_or_crypto';
+    }
+    if (preg_match('/[\x{1F300}-\x{1FAFF}\x{2600}-\x{27BF}]/u', $name . $company)) {
+        return 'emoji';
+    }
+    $domain = substr(strrchr($email, '@') ?: '', 1);
+    $throwaway = ['emalupe.com', 'web-library.net', 'uberip.com', 'maximail.fyi', 'merepost.com', 'mailinator.com', 'guerrillamail.com', 'sharklasers.com', 'yopmail.com', 'temp-mail.org', '10minutemail.com'];
+    if ($domain !== '' && in_array($domain, $throwaway, true)) {
+        return 'throwaway_domain';
+    }
+    if ($domain === 'gmail.com' && substr_count(strstr($email, '@', true) ?: '', '.') >= 3) {
+        return 'dotted_gmail';
+    }
+    $looks_random = function ($value) {
+        $value = trim((string) $value);
+        if ($value === '' || strpos($value, ' ') !== false || strlen($value) < 10 || !ctype_alpha($value)) {
+            return false;
+        }
+        $switches = preg_match_all('/[a-z][A-Z]|[A-Z][a-z]/', $value);
+        return $switches >= 4 || !preg_match('/[aeiouy]/i', $value);
+    };
+    if ($looks_random($name) || $looks_random(preg_replace('/\s+LLC$/i', '', $company))) {
+        return 'random_string';
+    }
+
+    $secret = thinkable_forms_option('turnstile_secret');
+    if ($secret !== '' && thinkable_forms_option('turnstile_site_key') !== '') {
+        $token = (string) ($posted['cf-turnstile-response'] ?? '');
+        if ($token === '') {
+            return 'turnstile_missing';
+        }
+        $response = wp_remote_post('https://challenges.cloudflare.com/turnstile/v0/siteverify', [
+            'timeout' => 8,
+            'body' => ['secret' => $secret, 'response' => $token, 'remoteip' => $_SERVER['REMOTE_ADDR'] ?? ''],
+        ]);
+        $body = is_wp_error($response) ? null : json_decode((string) wp_remote_retrieve_body($response), true);
+        if (!is_array($body) || empty($body['success'])) {
+            return 'turnstile_failed';
+        }
+    }
+
+    return '';
+}
+
+add_filter('wpcf7_spam', function ($spam, $submission) {
+    if ($spam) {
+        return $spam;
+    }
+    $posted = $submission instanceof WPCF7_Submission ? $submission->get_posted_data() : [];
+    if (!is_array($posted)) {
+        return $spam;
+    }
+    $reason = thinkable_forms_spam_reason($posted);
+    if ($reason !== '') {
+        if ($submission instanceof WPCF7_Submission) {
+            $submission->add_spam_log(['agent' => 'thinkable-forms', 'reason' => $reason]);
+        }
+        return true;
+    }
+    return $spam;
+}, 10, 2);
+
+// Forward a clean submission to the partner platform so website inquiries show up next to clinic leads.
+add_action('wpcf7_mail_sent', function ($contact_form) {
+    if (thinkable_forms_option('forward_enabled') !== '1') {
+        return;
+    }
+    $funnel_code = thinkable_forms_option('forward_funnel_code');
+    $partner_code = thinkable_forms_option('forward_partner_code');
+    $url = thinkable_forms_option('forward_url');
+    if ($url === '' || ($funnel_code === '' && $partner_code === '')) {
+        return;
+    }
+    $submission = class_exists('WPCF7_Submission') ? WPCF7_Submission::get_instance() : null;
+    $posted = $submission ? $submission->get_posted_data() : [];
+    if (!is_array($posted)) {
+        return;
+    }
+    $value = function ($key) use ($posted) {
+        $v = $posted[$key] ?? '';
+        return trim(is_array($v) ? implode(', ', $v) : (string) $v);
+    };
+    $name_parts = preg_split('/\s+/', $value('full-name'), 2);
+    $labels = [
+        'company-name' => 'Company or organization', 'role' => 'Role', 'organization-type' => 'Organization type',
+        'use-case' => 'Primary use case', 'audience' => 'Audience served', 'monthly-inquiries' => 'Monthly patient inquiries', 'notes' => 'Notes',
+    ];
+    $answers = [];
+    foreach ($labels as $key => $label) {
+        if ($value($key) !== '') {
+            $answers[] = ['key' => $key, 'label' => $label, 'value' => $value($key)];
+        }
+    }
+    $page = $submission ? (string) ($submission->get_meta('url') ?: '') : '';
+    $payload = [
+        'session_id' => 'website-' . $contact_form->id() . '-' . wp_generate_uuid4(),
+        'current_step' => 1,
+        'total_steps' => 1,
+        'step_name' => 'Website form submitted',
+        'funnel_code' => $funnel_code !== '' ? $funnel_code : null,
+        'partner_code' => $partner_code !== '' ? $partner_code : null,
+        'source' => 'thinkable-website',
+        'campaign' => ['utm_source' => 'thinkable-website', 'form' => $contact_form->title(), 'landing' => $page],
+        'user_details' => [
+            'firstName' => $name_parts[0] ?? '',
+            'lastName' => $name_parts[1] ?? '',
+            'email' => $value('work-email'),
+        ],
+        'answers' => $answers,
+        'completed_booking' => false,
+    ];
+    $response = wp_remote_post($url, [
+        'timeout' => 8,
+        'headers' => ['Content-Type' => 'application/json', 'Accept' => 'application/json'],
+        'body' => wp_json_encode($payload),
+    ]);
+    if (is_wp_error($response) || wp_remote_retrieve_response_code($response) >= 300) {
+        error_log('[thinkable-forms] lead forwarding failed: ' . (is_wp_error($response) ? $response->get_error_message() : wp_remote_retrieve_body($response)));
+    }
+}, 10, 1);
 
 function thinkable_studies_api_get($endpoint, $cache_key)
 {

@@ -60,8 +60,10 @@ Workflow for a copy or design change on the live site: `wp:pull` → edit `conte
 
 Both forms (home "Check patient fit", Partner Demo) are Contact Form 7 forms whose definitions are
 provisioned by `functions.php` (`thinkable_partner_form_definition`, `thinkable_homepage_fit_form_definition`).
-`additional_settings` has **`skip_mail: on`**, so submissions are **not emailed** — they are stored in
-**Flamingo → Inbound Messages** in wp-admin. Successful submissions redirect to `/partner-demo-thank-you`.
+Since forms version `2026-09-15-forms-3` submissions are emailed to the address in **Settings → Thinkable Forms**
+(default info@thinkable.app), stored in **Flamingo → Inbound Messages**, filtered by a honeypot + heuristics
+(+ Cloudflare Turnstile when keys are configured), and optionally forwarded to partner-api's lead ingest.
+Successful submissions redirect to `/partner-demo-thank-you`. Details in `docs/wordpress-operations.md`.
 The React rebuild posts to the same CF7 REST endpoint (`/wp-json/contact-form-7/v1/contact-forms/<id>/feedback`).
 
 ## Hosting

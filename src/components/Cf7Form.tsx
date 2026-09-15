@@ -25,7 +25,7 @@ function parseCf7(template: string): { fields: Field[]; submitLabel: string } {
     const quoted = [...rest.matchAll(/"([^"]*)"/g)].map((q) => q[1]);
     const tokens = rest.replace(/"[^"]*"/g, '').trim().split(/\s+/).filter(Boolean);
     if (tag === 'submit') { submitLabel = quoted[0] || submitLabel; continue; }
-    if (['response', 'acceptance'].includes(tag)) continue;
+    if (['response', 'acceptance', 'thinkable_turnstile'].includes(tag)) continue;
     const name = tokens[0];
     const f: Field = { tag, name, required: star === '*', label: labelFor.get(name) || name };
     for (const t of tokens.slice(1)) {
@@ -74,6 +74,9 @@ export function Cf7Form({ form, onSuccess, className, submitClassName }: { form:
     <form className={className ?? 'wpcf7-form'} onSubmit={onSubmit} noValidate>
       {fields.map((f) => f.tag === 'hidden' ? (
         <input key={f.name} type="hidden" name={f.name} value={f.value} />
+      ) : f.name === 'website' ? (
+        // Honeypot (mirrors the theme): visually hidden, must stay empty.
+        <span key={f.name} className="thinkable-hp" aria-hidden="true"><label>Website <input type="text" name="website" autoComplete="off" tabIndex={-1} /></label></span>
       ) : (
         <p key={f.name}>
           <label>

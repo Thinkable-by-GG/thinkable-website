@@ -26,8 +26,17 @@
 - **Thinkable Homepage Fit Form** (CF7 id 204): full-name, role, work-email, monthly-inquiries, company-name, audience (+ hidden organization-type/use-case).
 - Both are (re)provisioned by `functions.php` on `init` when `thinkable_cf7_forms_version` changes — to change a form, edit the
   definition in `functions.php`, bump the version string, push. Editing in the CF7 UI will be overwritten on the next bump.
-- `skip_mail: on` → no email is sent. Submissions are in **Flamingo → Inbound Messages** (66 messages on 2026-09-15).
-  Success redirects to `/partner-demo-thank-you` via a `wpcf7mailsent` listener in the footer.
+- Until 2026-09-15 `skip_mail: on` meant no email was sent; the 66 Flamingo messages collected since June were all bots
+  (crypto bait, random-string names) plus two QA entries. Forms version `2026-09-15-forms-3` changes that:
+  - **Mail on**, recipient = *Settings → Thinkable Forms → Notification email* (default `info@thinkable.app`). Flamingo still keeps every submission.
+  - **Honeypot** field `website` (off-screen span inside the submit paragraph, so the grid CSS is unchanged).
+  - **Heuristics** in `thinkable_forms_spam_reason()`: links/crypto words, emoji, throwaway domains, dotted-Gmail, random-string names or companies.
+    Spam is stored in Flamingo's spam folder with a `thinkable-forms` log entry and the visitor sees CF7's generic error.
+  - **Cloudflare Turnstile** via the `[thinkable_turnstile]` form-tag: renders and verifies only when site key + secret are set in the settings page.
+  - **Lead forwarding** (`wpcf7_mail_sent`) to partner-api `POST /api/leads/ingest` with `source: thinkable-website`, name/email in
+    `user_details`, everything else in `answers[]`. Off by default; needs *Forward leads* enabled plus a funnel code (or org slug) in the
+    settings page. Do not point it at an org that runs the clinic workspace (`settings.pilot`) — the pilot hook would turn inquiries into patients.
+  - Success still redirects to `/partner-demo-thank-you` via the `wpcf7mailsent` listener in the footer.
 
 ## Known issues seen while mirroring (2026-09-15)
 - `images/Rectangle 1.png`, the fallback hero for resource articles and posts, returns **404** on the server. Pages with a
