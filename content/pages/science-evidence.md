@@ -3,8 +3,8 @@ id: 26
 type: "page"
 path: "/science-evidence"
 slug: "science-evidence"
-title: "Science and Evidence"
-excerpt: "Evidence context for partners reviewing Thinkable, intended use, content boundaries, and responsible implementation."
+title: "Science behind the support"
+excerpt: "Review the research, meet our research leadership, and understand how the evidence relates to your clinic."
 template: "page-internal.php"
 status: "publish"
 featuredImage: "/uploads/thinkable-evidence-review.png"
@@ -12,8 +12,10 @@ featuredImageAlt: "Evidence review workspace with tablet, notes, and calm teal a
 date: "2026-06-15T06:52:32Z"
 modified: "2026-06-29T05:55:05Z"
 ---
-<p class="lead">Evidence matters most when it is connected to the intended use. Thinkable is reviewed as a structured mental health support layer for defined partner journeys, with clear boundaries around claims, clinical ownership, and implementation.</p>
-<h2>Evidence partners review</h2><ul><li>The audience and use case where Thinkable would be deployed.</li><li>The type of support being provided: education, guided exercises, engagement, or follow-up.</li><li>The claims that can be responsibly made in the partner context.</li><li>The workflow for clinical, compliance, or research review.</li><li>The escalation and safety language users see when they need urgent help.</li></ul>
-<h2>Evidence guides implementation</h2><p>The right evidence conversation is not only about citations. It connects research context, content design, user population, and expected outcomes to the specific partner path being considered.</p>
-<h2>Related pages</h2><ul><li><a href="/resources/evidence-in-mental-health-partnerships/">Evidence in mental health partnerships</a></li><li><a href="/use-cases/research-clinical-partners/">Research and clinical partners</a></li><li><a href="/buyers/research-clinical-partner-buyers/">Research and clinical buyer path</a></li></ul>
-<p><a class="button" href="/partner-demo/">Discuss evidence review</a></p>
+<p class="lead">Thinkable draws on research into mobile cognitive training and CBT-based digital exercises. We make the study populations, methods, and findings available so your clinical team can evaluate the evidence in context.</p>
+<h2>Led by research</h2><p>Prof. Guy Doron leads the research behind our CBT-based interventions, working alongside the product and partnership team. <a href="https://ggtude.com/about/" target="_blank" rel="noopener noreferrer">Meet the founding team at GGtude</a>.</p>
+<h2>Evidence with a clear scope</h2><p>The library below includes research on Thinkable, GGtude, and related mobile cognitive training programs across different populations and conditions. A study of one intervention or population is not evidence for every platform feature or use case.</p>
+<p>Our TMS clinic pilot, sponsored by BrainsWay, evaluates the clinic workflow and patient engagement. We do not present the established digital support research as proof that the full clinic platform improves TMS outcomes, patient acquisition, or retention.</p>
+<h2>What your clinical team can review</h2><ul><li>Study design, participant population, and intervention.</li><li>The outcomes measured and the duration of follow-up.</li><li>Which content and support pathways fit your patient population.</li><li>Patient-facing language, clinical responsibilities, and escalation arrangements.</li></ul>
+<h2>Clinical care stays with the care team</h2><p>Thinkable provides education and digital support. Assessments support intake and progress tracking; they do not diagnose a condition or determine treatment eligibility. Clinical and emergency support must follow the arrangements agreed with the care provider.</p>
+<p><a class="button" href="/partner-demo">Discuss the evidence with us</a></p>

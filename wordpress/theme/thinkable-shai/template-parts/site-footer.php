@@ -1,21 +1,5 @@
 <footer class="site-footer" id="contact">
-  <div class="footer-inner">
-    <div>
-      <h2>Thinkable</h2>
-      <h3>Better-fit patients. Better care journeys.</h3>
-      <p>
-        Thinkable helps partners add structured mental health support around care journeys, products,
-        employee programs, and research initiatives.
-      </p>
-    </div>
-    <address>
-      <strong>Contact Us</strong>
-      Email info@thinkable.app
-    </address>
-  </div>
-  <div class="footer-bottom">
-    <span>&copy; GGTUDE LTD, doing business as Thinkable, 2026</span>
-    <span><a href="<?php echo esc_url(home_url('/privacy-policy/')); ?>">Privacy Policy</a></span>
-    <span><a href="<?php echo esc_url(home_url('/terms/')); ?>">Terms</a></span>
-  </div>
+<!-- lifecycle-footer:start -->
+<div class="footer-inner"><div><h2><span class="brand-mark t-brand-symbol" aria-hidden="true"></span>thinkable</h2><h3>Every step. Connected.</h3><p>The digital platform around the full TMS patient lifecycle.</p></div><nav class="t-footer-links" aria-label="Footer navigation"><strong>Explore Thinkable</strong><a href="/#platform">The platform</a><a href="/science-evidence">Science &amp; evidence</a><a href="/#team">Our team</a><a href="/resources">Resources</a><a href="/blog">Insights</a><a href="/use-cases">All partnerships</a></nav><address><strong>Let’s connect</strong><a href="mailto:info@thinkable.app">info@thinkable.app</a><br><a href="/partner-demo">Book a demo ↗</a></address></div><div class="footer-bottom"><span>© GGTUDE LTD, doing business as Thinkable, 2026</span><a href="/privacy-policy">Privacy Policy</a><a href="/terms">Terms</a><a href="/contact">Contact</a></div><p class="t-support-note">Thinkable provides educational and digital support alongside clinical care. It does not diagnose conditions, provide treatment, or replace professional care. Business inquiries only; this website is not monitored for clinical or emergency support.</p>
+<!-- lifecycle-footer:end -->
 </footer>

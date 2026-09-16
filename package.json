@@ -12,7 +12,10 @@
     "wp:pull": "node scripts/wp/pull.mjs",
     "wp:push:theme": "node scripts/wp/push-theme.mjs",
     "wp:push:content": "node scripts/wp/push-content.mjs",
-    "wp:diff": "node scripts/wp/push-theme.mjs --all --dry-run"
+    "wp:diff": "node scripts/wp/push-theme.mjs --all --dry-run",
+    "styles:build": "node scripts/wp/build-styles.mjs",
+    "predev": "npm run styles:build",
+    "prebuild": "npm run styles:build"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -31,5 +34,7 @@
     "typescript": "^5.2.2",
     "vite": "^5.1.4"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  }
 }

@@ -134,13 +134,28 @@ write(path.join(ROOT, 'content/site.json'), JSON.stringify({
   theme: { slug: THEME_SLUG, files: themeFiles },
   frontPageId: settings.page_on_front,
   navigation: [
-    { label: 'Use Cases', path: '/use-cases' },
-    { label: 'Evidence', path: '/science-evidence' },
-    { label: 'Resources', path: '/resources' },
-    { label: 'Blog', path: '/blog' },
-    { label: 'Partner Demo', path: '/partner-demo' },
-    { label: 'Contact', path: '/contact', style: 'button' },
-  ],
+  {
+    "label": "Platform",
+    "path": "/#platform"
+  },
+  {
+    "label": "For clinics",
+    "path": "/use-cases/clinics-mental-health-organizations"
+  },
+  {
+    "label": "For partners",
+    "path": "/use-cases/medical-device-treatment-partners"
+  },
+  {
+    "label": "Science & team",
+    "path": "/science-evidence"
+  },
+  {
+    "label": "Book a demo \u2197",
+    "path": "/partner-demo",
+    "style": "button"
+  }
+],
   footerLinks: [
     { label: 'Privacy Policy', path: '/privacy-policy' },
     { label: 'Terms', path: '/terms' },

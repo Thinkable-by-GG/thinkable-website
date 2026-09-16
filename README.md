@@ -77,3 +77,10 @@ sync scripts automate. Google Analytics 4 property `G-RPW89LCFYM` is injected by
 Until June 2026 this repo held a React + Payload CMS consumer site (quizzes, assessments, videos, EN/HE).
 That deployment was replaced by the WordPress partner site; the old code is in git history before the
 "Realign repo with live WordPress site" commit.
+
+## September 2026 redesign
+
+The local theme and React preview now follow the full TMS patient lifecycle. See
+[redesign-september-2026.md](docs/redesign-september-2026.md) for source decisions,
+shared markup, demo-form changes, and rollout notes. `npm run dev` / `npm run build`
+regenerate preview CSS from local theme source. Published to thinkable.app on 2026-09-16; live pages and demo submission storage verified.

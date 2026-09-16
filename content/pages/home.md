@@ -3,7 +3,7 @@ id: 9
 type: "page"
 path: "/"
 slug: "main-design"
-title: "Thinkable"
+title: "Thinkable | The connected platform for TMS clinics"
 template: "page-main-design.php"
 status: "publish"
 featuredImage: "/uploads/thinkable-partnership-team.png"

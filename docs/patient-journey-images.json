@@ -1,0 +1,69 @@
+{
+  "source": "User-supplied images, September 16 2026",
+  "assets": [
+    {
+      "name": "calling-the-clinic",
+      "width": 480,
+      "file": "public/uploads/journey-calling-the-clinic-480.webp",
+      "bytes": 24434,
+      "id": 410,
+      "url": "https://thinkable.app/wp-content/uploads/2026/09/journey-calling-the-clinic-480.webp"
+    },
+    {
+      "name": "calling-the-clinic",
+      "width": 800,
+      "file": "public/uploads/journey-calling-the-clinic-800.webp",
+      "bytes": 54458,
+      "id": 411,
+      "url": "https://thinkable.app/wp-content/uploads/2026/09/journey-calling-the-clinic-800.webp"
+    },
+    {
+      "name": "meet-the-team",
+      "width": 480,
+      "file": "public/uploads/journey-meet-the-team-480.webp",
+      "bytes": 22148,
+      "id": 412,
+      "url": "https://thinkable.app/wp-content/uploads/2026/09/journey-meet-the-team-480.webp"
+    },
+    {
+      "name": "meet-the-team",
+      "width": 800,
+      "file": "public/uploads/journey-meet-the-team-800.webp",
+      "bytes": 46852,
+      "id": 413,
+      "url": "https://thinkable.app/wp-content/uploads/2026/09/journey-meet-the-team-800.webp"
+    },
+    {
+      "name": "tms-treatment",
+      "width": 480,
+      "file": "public/uploads/journey-tms-treatment-480.webp",
+      "bytes": 27044,
+      "id": 414,
+      "url": "https://thinkable.app/wp-content/uploads/2026/09/journey-tms-treatment-480.webp"
+    },
+    {
+      "name": "tms-treatment",
+      "width": 800,
+      "file": "public/uploads/journey-tms-treatment-800.webp",
+      "bytes": 58558,
+      "id": 415,
+      "url": "https://thinkable.app/wp-content/uploads/2026/09/journey-tms-treatment-800.webp"
+    },
+    {
+      "name": "post-treatment",
+      "width": 480,
+      "file": "public/uploads/journey-post-treatment-480.webp",
+      "bytes": 27994,
+      "id": 418,
+      "url": "https://thinkable.app/wp-content/uploads/2026/09/journey-post-treatment-480.webp"
+    },
+    {
+      "name": "post-treatment",
+      "width": 800,
+      "file": "public/uploads/journey-post-treatment-800.webp",
+      "bytes": 65284,
+      "id": 419,
+      "url": "https://thinkable.app/wp-content/uploads/2026/09/journey-post-treatment-800.webp"
+    }
+  ]
+}

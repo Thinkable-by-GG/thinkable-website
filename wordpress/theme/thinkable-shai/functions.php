@@ -41,12 +41,12 @@ function thinkable_meta_description()
 {
     $path = trim((string) parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH), '/');
     $descriptions = [
-        '' => 'Thinkable helps clinics and mental health organizations connect with better-fit patient populations through evidence-informed digital support and partner-fit review.',
-        'use-cases' => 'Explore Thinkable use cases for clinics, digital health teams, employers, medical device partners, and research organizations reviewing mental health support.',
+        '' => 'Connect patient acquisition, clinic workflows, and digital support across the TMS patient journey. Explore Thinkable for clinics and treatment partners.',
+        'use-cases' => 'Explore Thinkable for TMS clinics and device partners: patient acquisition, onboarding coordination, digital support, and follow-up.',
         'science-evidence' => 'Review Thinkable evidence, published studies, research context, and partner evaluation guidance for responsible mental health implementation.',
         'resources' => 'Read Thinkable resources for partner teams evaluating audience needs, workflow fit, evidence expectations, and implementation questions before a demo.',
         'blog' => 'Read Thinkable insights for clinics, digital health teams, employers, research partners, and organizations evaluating structured mental health support.',
-        'partner-demo' => 'Request a Thinkable partner demo and share your organization type, use case, audience, and implementation context for review.',
+        'partner-demo' => 'See how Thinkable supports your TMS clinic across acquisition, onboarding, treatment engagement, and follow-up. Request a focused demo.',
         'contact' => 'Contact Thinkable for partnership opportunities, resources, product questions, media inquiries, and general business requests.',
         'privacy-policy' => 'Read the Thinkable privacy policy for information about how website and form information is collected, used, and protected.',
         'terms' => 'Read the Thinkable terms for website use, content, partner inquiries, and related business information.',
@@ -89,23 +89,28 @@ function thinkable_partner_form_definition()
 {
     return [
         'title' => 'Thinkable Partner Demo Form',
-        'form' => '<label>Full name' . "\n" .
-            '[text* full-name autocomplete:name]</label>' . "\n\n" .
-            '<label>Work email' . "\n" .
-            '[email* work-email autocomplete:email]</label>' . "\n\n" .
-            '<label>Company or organization' . "\n" .
-            '[text* company-name autocomplete:organization]</label>' . "\n\n" .
-            '<label>Organization type' . "\n" .
-            '[select* organization-type include_blank "Clinic or care organization" "Digital health company" "Medical device company" "Employer or EAP program" "Research or academic partner" "Other partner organization"]</label>' . "\n\n" .
-            '<label>Primary use case' . "\n" .
-            '[select* use-case include_blank "Between-session support" "Digital product support layer" "Treatment education and follow-up" "Employee or EAP support" "Research or clinical collaboration" "Not sure yet"]</label>' . "\n\n" .
-            '<label>Audience served' . "\n" .
-            '[text audience placeholder "Patients, employees, members, teams"]</label>' . "\n\n" .
-            '<label>What would you like to explore?' . "\n" .
-            '[textarea notes placeholder "Share the support gap, current workflow, review needs, or timing."]</label>' . "\n\n" .
-            '[thinkable_turnstile]' . "\n" .
-            '[submit "Request partner demo"]' . "\n" .
-            '<span class="thinkable-hp" aria-hidden="true"><label>Website [text website autocomplete:off tabindex:-1]</label></span>',
+        'form' => <<<'THINKABLE_DEMO_FORM'
+<label>Full name
+[text* full-name autocomplete:name]</label>
+
+<label>Work email
+[email* work-email autocomplete:email]</label>
+
+<label>Clinic or company
+[text* company-name autocomplete:organization]</label>
+
+<label>Organization type
+[select* organization-type include_blank "Clinic or care organization" "Medical device company" "Other partner organization"]</label>
+
+<label>What would you like to improve? (optional)
+[textarea notes placeholder "Tell us about your clinic workflow or patient engagement priorities."]</label>
+
+[hidden use-case "Not sure yet"]
+[hidden audience ""]
+[thinkable_turnstile]
+[submit "Request a demo"]
+<span class="thinkable-hp" aria-hidden="true"><label>Website [text website autocomplete:off tabindex:-1]</label></span>
+THINKABLE_DEMO_FORM,
         'mail' => [
             'recipient' => thinkable_forms_option('notify_email'),
             'sender' => '[_site_title] <wordpress@thinkable.app>',
@@ -222,7 +227,7 @@ add_action('init', function () {
         return;
     }
 
-    $version = '2026-09-15-forms-4';
+    $version = '2026-09-16-lifecycle-forms-5';
 
     if (get_option('thinkable_cf7_forms_version') === $version) {
         return;
@@ -786,3 +791,15 @@ function thinkable_handle_partner_demo_form()
     wp_safe_redirect($thank_you);
     exit;
 }
+
+add_filter('pre_get_document_title', function ($title) {
+    return is_front_page() ? 'Thinkable | The connected platform for TMS clinics' : $title;
+});
+add_action('wp_footer', function () {
+    ?><script>
+    document.querySelectorAll('.t-mobile-nav').forEach(function(menu) {
+        menu.addEventListener('click', function(event) { if (event.target.closest('a')) menu.open = false; });
+        menu.addEventListener('keydown', function(event) { if (event.key === 'Escape') { menu.open = false; menu.querySelector('summary').focus(); } });
+    });
+    </script><?php
+}, 30);

@@ -19,7 +19,7 @@ export function InternalSidebar() {
       </div>
       <div className="sidebar-note">
         <strong>Best for</strong>
-        <span>Clinics, digital health teams, medical device partners, employers, EAPs, and research teams.</span>
+        <span>TMS clinics, clinic groups, and device or treatment partners.</span>
       </div>
     </aside>
   );

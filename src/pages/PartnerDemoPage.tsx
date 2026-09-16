@@ -13,20 +13,20 @@ export function PartnerDemoPage() {
       <section className="partner-hero" style={heroStyle(HERO_GRADIENTS.partner, page?.featuredImage)}>
         <div className="partner-hero-copy">
           <p className="eyebrow">PARTNER DEMO</p>
-          <h1>Explore a Thinkable partnership</h1>
-          <p>Tell us who you serve and where mental health support is needed. We will use that context to review whether Thinkable fits your care, product, benefits, treatment, or research path.</p>
+          <h1>See Thinkable around your clinic.</h1>
+          <p>Walk through the patient journey with us: acquisition, intake coordination, support during treatment, and follow-up after care.</p>
         </div>
       </section>
 
       <section className="partner-intake" id="partner-form">
         <div className="partner-intake-copy">
           <p className="eyebrow">START THE CONVERSATION</p>
-          <h2>Share the use case, not a generic contact request.</h2>
-          <p>The most useful first conversation starts with your audience and the support gap you are trying to solve. Use the form to share the basics, and we will route the conversation around the right partner path.</p>
+          <h2>Start with your clinic’s priorities.</h2>
+          <p>Tell us about your clinic, patient population, and the part of the journey you want to improve. We will focus the demo on the workflows and support that matter to your team.</p>
           <div className="partner-fit-list">
-            <div><strong>Good fit for</strong><span>Clinics, digital health teams, medical device partners, employers, EAPs, and research teams.</span></div>
-            <div><strong>Useful context</strong><span>Audience served, primary support need, current workflow, and review requirements.</span></div>
-            <div><strong>Next step</strong><span>A focused discussion about fit, evidence language, implementation, and ownership.</span></div>
+            <div><strong>Good fit for</strong><span>TMS clinics, clinic groups, and device or treatment partners.</span></div>
+            <div><strong>Useful context</strong><span>Your service area, current intake process, team workflow, and patient engagement priorities.</span></div>
+            <div><strong>Next step</strong><span>A walkthrough of the platform and a discussion of scope, evidence, and implementation.</span></div>
           </div>
         </div>
         <div className="partner-form">
@@ -38,12 +38,12 @@ export function PartnerDemoPage() {
       <section className="partner-after">
         <div>
           <p className="eyebrow">WHAT HAPPENS NEXT</p>
-          <h2>A focused review of fit.</h2>
+          <h2>A clear path from demo to decision.</h2>
         </div>
         <div className="partner-after-grid">
-          <article><strong>1</strong><h3>We review your context</h3><p>Your organization type, audience, use case, and review needs shape the first conversation.</p></article>
-          <article><strong>2</strong><h3>We discuss the partner path</h3><p>The demo focuses on where Thinkable support could fit, the evidence to review, and the rollout details to clarify.</p></article>
-          <article><strong>3</strong><h3>We define next steps</h3><p>If there is a fit, the next step is a clearer scope around audience, content, review, and ownership.</p></article>
+          <article><strong>1</strong><h3>We review your context</h3><p>We review your clinic workflow and the patient population you support.</p></article>
+          <article><strong>2</strong><h3>We walk through the platform</h3><p>See the clinic workspace, patient experience, and acquisition and referral workflows.</p></article>
+          <article><strong>3</strong><h3>We define next steps</h3><p>Together, we define responsibilities, implementation scope, and what success should look like.</p></article>
         </div>
       </section>
     </main>

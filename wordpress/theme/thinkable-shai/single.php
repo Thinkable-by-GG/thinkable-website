@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title><?php echo esc_html(get_the_title() ?: 'Thinkable Article'); ?></title>
     <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri() . '/styles.css'); ?>" />
-    <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri() . '/internal.css'); ?>" />
+    <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri() . '/internal.css?v=20260916-lifecycle'); ?>" />
     <?php wp_head(); ?>
   </head>
   <body>
     <?php get_template_part('template-parts/site-header'); ?>
-    <main class="resource-article-page">
+    <main id="main" class="resource-article-page">
       <section class="resource-hero" style="<?php echo esc_attr(thinkable_hero_background_style('images/Rectangle 1.png', 'linear-gradient(90deg, rgba(0, 55, 50, 0.94), rgba(0, 103, 94, 0.84))')); ?>">
         <div>
           <p class="eyebrow">THINKABLE ARTICLE</p>

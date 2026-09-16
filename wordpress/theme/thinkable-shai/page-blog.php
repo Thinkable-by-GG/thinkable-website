@@ -12,12 +12,12 @@ $posts_query = new WP_Query([
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Thinkable Blog</title>
     <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri() . '/styles.css'); ?>" />
-    <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri() . '/internal.css'); ?>" />
+    <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri() . '/internal.css?v=20260916-lifecycle'); ?>" />
     <?php wp_head(); ?>
   </head>
   <body>
     <?php get_template_part('template-parts/site-header'); ?>
-    <main class="internal-page">
+    <main id="main" class="internal-page">
       <section class="internal-hero" style="<?php echo esc_attr(thinkable_hero_background_style('images/Top_Pg_Patient_01%201.png', 'linear-gradient(90deg, rgba(0, 65, 59, 0.9), rgba(0, 109, 98, 0.76))')); ?>">
         <div>
           <p class="eyebrow">THINKABLE BLOG</p>

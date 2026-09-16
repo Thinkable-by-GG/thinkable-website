@@ -71,7 +71,7 @@ export function Cf7Form({ form, onSuccess, className, submitClassName }: { form:
   };
 
   return (
-    <form className={className ?? 'wpcf7-form'} onSubmit={onSubmit} noValidate>
+    <form className={className ?? 'wpcf7-form'} onSubmit={onSubmit}>
       {fields.map((f) => f.tag === 'hidden' ? (
         <input key={f.name} type="hidden" name={f.name} value={f.value} />
       ) : f.name === 'website' ? (

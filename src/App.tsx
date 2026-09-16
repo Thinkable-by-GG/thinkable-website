@@ -17,7 +17,6 @@ function ScrollToTop() {
 }
 
 export default function App() {
-  const isHome = useLocation().pathname === '/';
   return (
     <>
       <a className="skip-link" href="#main">Skip to content</a>
@@ -29,7 +28,7 @@ export default function App() {
         <Route path="/partner-demo" element={<PartnerDemoPage />} />
         <Route path="*" element={<ContentRouter />} />
       </Routes>
-      <SiteFooter variant={isHome ? 'home' : 'internal'} />
+      <SiteFooter />
     </>
   );
 }
