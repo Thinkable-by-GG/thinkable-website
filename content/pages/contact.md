@@ -19,5 +19,7 @@ modified: "2026-06-29T04:34:21Z"
 <p>For non-demo questions, send a message with your organization, role, and reason for reaching out so the request can be routed clearly.</p>
 <h2>Email</h2>
 <p><a href="mailto:info@thinkable.app">info@thinkable.app</a></p>
+<h2>Thinkable US line</h2>
+<p>Call or text <a href="tel:+16592342234">+1 (659) 234-2234</a> for business inquiries.</p>
 <h2>Before sending sensitive information</h2>
 <p>Please do not submit emergency requests, confidential patient information, or sensitive clinical details through the website.</p>
