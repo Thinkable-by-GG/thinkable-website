@@ -19,8 +19,10 @@ function thinkable_hero_background_style($fallback_image, $gradient)
 add_action('wp_head', function () {
     $favicon_url = get_stylesheet_directory_uri() . '/favicon.svg';
     echo '<meta name="google-site-verification" content="Rze_WIYjFmcii6Ut4d18p6yvjMo8aP5KfRApCF2PiAw" />' . "\n";
-    echo '<link rel="icon" type="image/svg+xml" href="' . esc_url($favicon_url) . '">' . "\n";
-    echo '<link rel="shortcut icon" href="' . esc_url($favicon_url) . '">' . "\n";
+    if (!has_site_icon()) {
+        echo '<link rel="icon" type="image/svg+xml" href="' . esc_url($favicon_url) . '">' . "\n";
+        echo '<link rel="shortcut icon" href="' . esc_url($favicon_url) . '">' . "\n";
+    }
 }, 1);
 
 add_action('wp_head', function () {
