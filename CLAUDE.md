@@ -35,7 +35,7 @@ Cross-project docs live at `/Users/gurilany/dev/thinkable-platform-knowledge-bas
 
 ## Commands
 `npm run dev` · `npm run build` · `npm run lint` · `npm run wp:pull` · `npm run wp:diff` ·
-`npm run wp:push:theme <file>` · `npm run wp:push:content <content/…md> [--dry-run]`
+`npm run wp:push:theme <file>` · `npm run wp:push:content -- <content/…md> [--dry-run]` (the `--` is required: without it npm swallows `--dry-run` and the push goes live)
 
 ## Conventions
 - TypeScript strict, React 18 function components, react-router v6, plain CSS from the theme (no UI kit).

@@ -47,7 +47,7 @@ cp .env.example .env          # optional; scripts read ~/dev/creds/thinkable-app
 npm run wp:pull               # refresh content/, wordpress/theme/, public/uploads, docs/content-inventory.md
 npm run wp:diff               # which local theme files differ from the server
 npm run wp:push:theme functions.php            # push + verify one theme file
-npm run wp:push:content content/pages/contact.md --dry-run
+npm run wp:push:content -- content/pages/contact.md --dry-run   # the -- is required, or npm eats --dry-run and it publishes
 
 npm run dev                   # React rebuild at http://localhost:3000 (forms proxy to live WP)
 npm run build && npm run preview
