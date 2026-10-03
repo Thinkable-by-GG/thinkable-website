@@ -13,7 +13,7 @@ date: "2026-06-09T07:12:39Z"
 modified: "2026-09-10T08:16:07Z"
 ---
 <p class="lead">This Privacy Policy explains how Thinkable collects, uses, shares and protects personal information across all Thinkable products: this website, the Thinkable apps (including Thinkable Moments at moments.thinkable.app), the Thinkable clinic platform, the Thinkable Referral Network (outreach.thinkable.app) and the Thinkable text-messaging program. It also explains how we handle information we receive from Google when you sign in with Google or connect your Gmail account.</p>
-<p><strong>Last updated:</strong> September 25, 2026.</p>
+<p><strong>Last updated:</strong> October 3, 2026.</p>
 <h2>Who we are</h2>
 <p>This website and the Thinkable platform are operated by GGTUDE LTD, a company registered in Israel, doing business as Thinkable. References to "Thinkable", "we" and "us" mean GGTUDE LTD. For information we process on behalf of a clinic or other partner organization, that organization decides how the information is used and we act on its instructions (as its "processor" or "service provider").</p>
 <h2>Products this policy covers</h2>
@@ -21,6 +21,7 @@ modified: "2026-09-10T08:16:07Z"
 <li><strong>Website</strong> (thinkable.app): information about Thinkable and partner inquiry forms.</li>
 <li><strong>Thinkable apps</strong>, including <strong>Thinkable Moments</strong> (moments.thinkable.app): guided relaxation and wellbeing sessions.</li>
 <li><strong>Clinic platform</strong> (partner.thinkable.app and related pages): tools clinics use to screen, onboard and support their patients.</li>
+<li><strong>Partner clinic landing pages</strong> (care.thinkable.app): pages we run with partner clinics, such as MooreWays TMS Clinic, where people can request a TMS consultation or screening.</li>
 <li><strong>Referral Network</strong> (outreach.thinkable.app): a tool clinic and partner staff use to find nearby healthcare practices, write introduction emails, send them from their own email account and keep track of their professional relationships.</li>
 <li><strong>Text-messaging program</strong>: care-related text messages sent on behalf of partner clinics.</li>
 </ul>
@@ -29,6 +30,7 @@ modified: "2026-09-10T08:16:07Z"
 <p><strong>Information from partner clinics.</strong> When a clinic uses the clinic platform, it (or its patients, through the clinic's forms) may provide contact details, appointment information and answers to screening or check-in questions. We process this only to provide the service to that clinic.</p>
 <p><strong>Business contact information in the Referral Network.</strong> To help a clinic reach nearby practices, the Referral Network collects publicly available professional information about healthcare practices and providers, such as practice names, addresses, phone numbers, specialties and professional email addresses, from public sources including the US NPI Registry and practices' own websites. It also stores the emails, replies, calls and events a user records about those practices.</p>
 <p><strong>Information collected automatically.</strong> Like most online services, we receive standard technical information such as IP address, browser type, device information and pages visited, and we use cookies and similar storage for sign-in, security, remembering your preferences and, where you have consented, analytics. In Thinkable Moments, your session preferences and saved sessions are stored in your browser unless you choose to share or save them.</p>
+<p><strong>Third-party marketing tools.</strong> On our marketing pages, including partner clinic landing pages, we use third-party pixels and similar tracking technologies from advertising and analytics platforms, including Meta (Facebook) and Google, to track visitor interactions, measure how our advertising performs and show relevant ads. These tools may collect the pages you visit, the actions you take on them (such as submitting a form) and identifiers from your browser or device, and the platform may link that information to your account with it. You can limit this tracking in your browser settings and in the ad settings of each platform.</p>
 <h2>Information we receive from Google</h2>
 <p>Some Thinkable products let you sign in with your Google account, and the Referral Network lets you connect your Gmail account so that you can send emails from your own address.</p>
 <ul>
@@ -48,11 +50,13 @@ modified: "2026-09-10T08:16:07Z"
 <li>To comply with the law and protect the rights, safety and security of our users, partners and the public.</li>
 </ul>
 <h2>Business and partnership context</h2>
-<p>The forms on this website are intended for business and partnership inquiries. Please do not submit confidential patient information, emergency requests, or sensitive clinical details through the website forms.</p>
+<p>The forms on the thinkable.app marketing site are intended for business and partnership inquiries. Please do not submit confidential patient information, emergency requests, or sensitive clinical details through those forms. Requests for a TMS consultation or screening go through the partner clinic landing pages, as described under "Sharing" below.</p>
 <h2>Sharing</h2>
 <p>Thinkable does not sell personal information. We share information only:</p>
 <ul>
 <li>with the clinic or partner organization you are working with, for the products it provides to you;</li>
+<li><strong>with the partner clinic you are requesting care from.</strong> If you request a TMS consultation or screening through a Thinkable page for a partner clinic, the lead information you submit (such as your name, contact details and your answers to the request form) is securely transferred to that clinic, for example MooreWays TMS Clinic, for consultation and screening purposes. The clinic handles that information under its own privacy practices, and you can contact it directly about them;</li>
+<li>with the advertising and analytics platforms whose pixels are described under "Information we collect", for measurement and advertising;</li>
 <li>with service providers that help us operate the products (for example cloud hosting, email and text-message delivery, analytics, and AI text and speech generation), under contracts that limit their use of the information to providing their service to us;</li>
 <li>when required by law, or to protect rights, safety and security;</li>
 <li>as part of a merger, acquisition or sale of assets, subject to this policy.</li>
