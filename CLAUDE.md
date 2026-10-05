@@ -41,3 +41,10 @@ Cross-project docs live at `/Users/gurilany/dev/thinkable-platform-knowledge-bas
 - TypeScript strict, React 18 function components, react-router v6, plain CSS from the theme (no UI kit).
 - Paths without trailing slash internally (`/use-cases/x`); WordPress links carry a trailing slash — `normalizePath` handles both.
 - Commit and push once a day when active (user rule).
+
+## Writing standard
+Write all technical text in ASD-STE100 Simplified Technical English: docs, README, code comments, commit messages, PR descriptions, and technical UI text (error messages, staff instructions). Rules and scope: `/Users/gurilany/dev/thinkable-platform-knowledge-base/WRITING-STANDARD.md`.
+- Use approved words with one meaning. Keep technical names (endpoints, tables, env vars) exactly.
+- Write a maximum of 20 words in an instruction and 25 words in a descriptive sentence.
+- Use the active voice and the imperative for steps. Do not use "-ing" verb forms or contractions.
+- Do not apply STE to therapy content for patients, marketing copy, or legal text.
