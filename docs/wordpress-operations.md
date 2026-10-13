@@ -9,6 +9,8 @@
 - Meta descriptions for the top-level pages are hard-coded in `functions.php` (`thinkable_meta_description`).
 - GA4 `G-RPW89LCFYM` and a Google Search Console verification tag are added in `functions.php`.
 - Legacy redirects (dated post URLs → slug URLs, `/privacy` → `/privacy-policy`, `/main-design` → `/`) live in `functions.php`.
+- Short links: `functions.php` sends `/s/<code>` to `https://partner.thinkable.app/s/<code>` with a 302. The partner-api
+  shortener counts the click and sends the user to the target. Do not use `/s` as a page slug.
 
 ## Templates → what they render
 | Template | Used by | React port |

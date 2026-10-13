@@ -734,6 +734,17 @@ add_action('template_redirect', function () {
 
 });
 
+// Short links: thinkable.app/s/<code> goes to the partner-api shortener, which counts the click.
+// Priority 1 runs before redirect_canonical, so WordPress does not guess a post for the code.
+// Use 302 so that browsers do not cache the hop and every click reaches the shortener.
+add_action('template_redirect', function () {
+    $path = trim((string) parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH), '/');
+    if (preg_match('#^s/([A-Za-z0-9_-]{1,128})$#', $path, $m)) {
+        wp_redirect('https://partner.thinkable.app/s/' . $m[1], 302);
+        exit;
+    }
+}, 1);
+
 function thinkable_clean_form_value($key)
 {
     return sanitize_text_field(wp_unslash($_POST[$key] ?? ''));
